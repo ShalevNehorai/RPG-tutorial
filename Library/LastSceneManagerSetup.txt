@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/combat sendbox/combat sendbox.unity
+  isLoaded: 1
+  isActive: 1
