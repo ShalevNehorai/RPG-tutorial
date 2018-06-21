@@ -7,12 +7,12 @@ using UnityEngine.UI;
 public class PlayerHealthBar : MonoBehaviour
 {
     RawImage healthBarRawImage;
-    Player player;
+    PlayerHealth player;
 
     // Use this for initialization
     void Start()
     {
-        player = FindObjectOfType<Player>();
+        player = FindObjectOfType<PlayerHealth>();
         healthBarRawImage = GetComponent<RawImage>();
     }
 
