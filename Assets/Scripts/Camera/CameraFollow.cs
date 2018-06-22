@@ -9,13 +9,27 @@ public class CameraFollow : MonoBehaviour {
 	private GameObject Player;
 
 	void Start () {
-		GameObject Player = GameObject.FindGameObjectWithTag (PlayerTag);
-		if (Player != null) {
-			this.Player = Player;
-		}
-	}
+        SearchForPlayer();
+    }
 
-	void LateUpdate () {
+    private void Update()
+    {
+        if (this.Player == null)
+        {
+            SearchForPlayer();
+        }
+    }
+
+    void LateUpdate () {
 		transform.position = this.Player.transform.position;
 	}
+
+    public void SearchForPlayer()
+    {
+        GameObject Player = GameObject.FindGameObjectWithTag(PlayerTag);
+        if (Player != null)
+        {
+            this.Player = Player;
+        }
+    }
 }

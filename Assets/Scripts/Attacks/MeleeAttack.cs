@@ -2,23 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RangeProjectile : MonoBehaviour {
+public class MeleeAttack : MonoBehaviour {
 
-    public float Speed = 1;
-    public float Range = 10;
     public float Damage = 50;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start()
     {
-        Destroy(gameObject, Range / Speed);
-	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
-        transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+        Destroy(gameObject, 0.2f);
     }
+
+    // Update is called once per frame
 
     private void OnTriggerEnter(Collider other)
     {
@@ -27,7 +21,11 @@ public class RangeProjectile : MonoBehaviour {
         {
             damageableComponent.TakeDamage(Damage);
         }
+    }
 
-        Destroy(gameObject);
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireMesh(new Mesh(), transform.position, transform.rotation, transform.localScale);
     }
 }

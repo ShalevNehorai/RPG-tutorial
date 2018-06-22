@@ -44,6 +44,7 @@ public class PlayerAttack : MonoBehaviour {
         switch (attackType)
         {
             case AttackType.melee:
+                Instantiate(Projectile, spownPoint.transform.position, spownPoint.transform.rotation);
                 break;
             case AttackType.range:
                 Instantiate(Projectile, spownPoint.transform.position, spownPoint.transform.rotation);

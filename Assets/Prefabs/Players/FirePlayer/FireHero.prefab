@@ -221,6 +221,7 @@ GameObject:
   - component: {fileID: 114684587464021636}
   - component: {fileID: 114724556225616792}
   - component: {fileID: 114662766024972288}
+  - component: {fileID: 114820709120695992}
   m_Layer: 0
   m_Name: FireHero
   m_TagString: Player
@@ -238,6 +239,22 @@ GameObject:
   - component: {fileID: 4754961154117872}
   m_Layer: 0
   m_Name: AttackSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1673905995595640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4408102190863170}
+  - component: {fileID: 114660331651256840}
+  m_Layer: 9
+  m_Name: UI Socket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -470,6 +487,19 @@ Transform:
   m_Father: {fileID: 4769526343856914}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4408102190863170
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1673905995595640}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 2.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4535052980019824}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4513653495834314
 Transform:
   m_ObjectHideFlags: 1
@@ -497,6 +527,7 @@ Transform:
   - {fileID: 4900519339629400}
   - {fileID: 4558565325655764}
   - {fileID: 4754961154117872}
+  - {fileID: 4408102190863170}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -687,6 +718,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114660331651256840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1673905995595640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1946e1c1bae1c34ba2666ebb3463952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyCanvasPrefab: {fileID: 1311539807392560, guid: 4afaf722c29d88a4ea6d772c9919b487,
+    type: 2}
 --- !u!114 &114662766024972288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -732,6 +776,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6fff22fed891d34db340bda94dc900d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114820709120695992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645247090730346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9a2b2ec2ea38240ad532529580d729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 100
 --- !u!136 &136678947354774670
 CapsuleCollider:
   m_ObjectHideFlags: 1

@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RangeProjectile : MonoBehaviour {
+public class RangeProjectileThatHeals : MonoBehaviour {
 
     public float Speed = 1;
     public float Range = 10;
     public float Damage = 50;
+    public float HealPoints = 10;
 
 	// Use this for initialization
 	void Start ()
@@ -23,9 +24,16 @@ public class RangeProjectile : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         IDamageable damageableComponent = other.gameObject.GetComponent<IDamageable>();
-        if (damageableComponent != null && other.tag != "Player")
+        if (damageableComponent != null)
         {
-            damageableComponent.TakeDamage(Damage);
+            if (other.tag != "Player")
+            {
+                damageableComponent.TakeDamage(Damage);
+            }
+            else
+            {
+                damageableComponent.TakeDamage(-HealPoints);
+            }
         }
 
         Destroy(gameObject);
