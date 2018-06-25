@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public enum AttackType
 {
@@ -9,7 +10,7 @@ public enum AttackType
     range
 }
 
-public class PlayerAttack : MonoBehaviour {
+public class PlayerAttack : NetworkBehaviour {
     [Header("General")]
     public AttackType attackType;
     public Transform spownPoint;
@@ -24,20 +25,27 @@ public class PlayerAttack : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        this.enabled = isLocalPlayer;
+
         nextAttackTime = 0;
 
         cameraRaycaster = Camera.main.GetComponent<CameraRaycaster>();
 
-        cameraRaycaster.notifyMouseClickObservers += Attack;
+        //cameraRaycaster.notifyMouseClickObservers += Attack;
     }
     private void Update()
     {
         nextAttackTime = Mathf.Clamp(nextAttackTime - Time.deltaTime, 0, 1 / attackSpeed);
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            Attack();
+        }
     }
-    //TODO: put an attack speed
-    private void Attack(RaycastHit raycastHit, int layerHit)
+ 
+    private void Attack(/*RaycastHit raycastHit, int layerHit*/)
     {
-        transform.LookAt(new Vector3(raycastHit.point.x, 0, raycastHit.point.z));
+        //transform.LookAt(new Vector3(raycastHit.point.x, 0, raycastHit.point.z));
 
         if (nextAttackTime > 0) { return; }
 

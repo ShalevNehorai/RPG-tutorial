@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEditor;
+//using UnityEditor;
 using UnityStandardAssets.Characters.ThirdPerson;
 
 
@@ -79,14 +79,14 @@ public class Enemy : MonoBehaviour, IDamageable {
         newProjectile.Target = Player.transform;
     }
 
-	void OnDrawGizmos()
-	{
-        //drow chase circale
-		Handles.color = Color.blue;
-		Handles.DrawWireDisc (transform.position, Vector3.up, ChaseRadius);
+	//void OnDrawGizmos()
+	//{
+ //       //drow chase circale
+	//	Handles.color = Color.blue;
+	//	Handles.DrawWireDisc (transform.position, Vector3.up, ChaseRadius);
 
-        //drow attack circale
-		Handles.color = Color.red;
-		Handles.DrawWireDisc (transform.position, Vector3.up, AttackRange);
-	}
+ //       //drow attack circale
+	//	Handles.color = Color.red;
+	//	Handles.DrawWireDisc (transform.position, Vector3.up, AttackRange);
+	//}
 }

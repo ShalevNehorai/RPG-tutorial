@@ -2,15 +2,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityStandardAssets.Characters.ThirdPerson;
 
 [RequireComponent(typeof(ThirdPersonCharacter))]
-public class MyPlayerMovment : MonoBehaviour {
+public class MyPlayerMovment : NetworkBehaviour {
 
     private ThirdPersonCharacter thirdPersonCharacter = null;
 
     // Use this for initialization
     void Start () {
+        this.enabled = isLocalPlayer;
+
         thirdPersonCharacter = GetComponent<ThirdPersonCharacter>();
     }
 

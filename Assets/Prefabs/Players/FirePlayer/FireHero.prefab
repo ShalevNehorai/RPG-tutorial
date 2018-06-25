@@ -222,6 +222,8 @@ GameObject:
   - component: {fileID: 114724556225616792}
   - component: {fileID: 114662766024972288}
   - component: {fileID: 114820709120695992}
+  - component: {fileID: 114777722248231418}
+  - component: {fileID: 114753806058016478}
   m_Layer: 0
   m_Name: FireHero
   m_TagString: Player
@@ -520,7 +522,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1645247090730346}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -776,6 +778,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6fff22fed891d34db340bda94dc900d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114753806058016478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645247090730346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.1
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
+--- !u!114 &114777722248231418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645247090730346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 136
+    i1: 71
+    i2: 50
+    i3: 201
+    i4: 126
+    i5: 38
+    i6: 255
+    i7: 52
+    i8: 202
+    i9: 132
+    i10: 143
+    i11: 242
+    i12: 32
+    i13: 144
+    i14: 216
+    i15: 97
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114820709120695992
 MonoBehaviour:
   m_ObjectHideFlags: 1
