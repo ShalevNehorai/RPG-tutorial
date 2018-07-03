@@ -6,30 +6,36 @@ public class CameraFollow : MonoBehaviour {
 
 	private const string PlayerTag = "Player";
 
-	private GameObject Player;
+	private static GameObject Player;
+
+
+    public static GameObject SetPlayer
+    {
+        set { Player = value; }
+    }
 
 	void Start () {
-        SearchForPlayer();
+        //SearchForPlayer();
     }
 
     private void Update()
     {
-        if (this.Player == null)
+        if (Player == null)
         {
-            SearchForPlayer();
+            //SearchForPlayer();
         }
     }
 
     void LateUpdate () {
-		transform.position = this.Player.transform.position;
+		transform.position = Player.transform.position;
 	}
 
-    public void SearchForPlayer()
-    {
-        GameObject Player = GameObject.FindGameObjectWithTag(PlayerTag);
-        if (Player != null)
-        {
-            this.Player = Player;
-        }
-    }
+    //public void SearchForPlayer()
+    //{
+    //    GameObject Player = GameObject.FindGameObjectWithTag(PlayerTag);
+    //    if (Player != null)
+    //    {
+    //        this.Player = Player;
+    //    }
+    //}
 }

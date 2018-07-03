@@ -10,7 +10,7 @@ public enum AttackType
     range
 }
 
-public class PlayerAttack : NetworkBehaviour {
+public class PlayerAttack : MonoBehaviour {
     [Header("General")]
     public AttackType attackType;
     public Transform spownPoint;
@@ -25,8 +25,6 @@ public class PlayerAttack : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        this.enabled = isLocalPlayer;
-
         nextAttackTime = 0;
 
         cameraRaycaster = Camera.main.GetComponent<CameraRaycaster>();
