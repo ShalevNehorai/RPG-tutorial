@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
 	[RequireComponent(typeof(Rigidbody))]
 	[RequireComponent(typeof(CapsuleCollider))]
 	[RequireComponent(typeof(Animator))]
-	public class ThirdPersonCharacter : MonoBehaviour
+	public class ThirdPersonCharacter : NetworkBehaviour
 	{
 		[SerializeField] float m_MovingTurnSpeed = 360;
 		[SerializeField] float m_StationaryTurnSpeed = 180;
@@ -71,8 +72,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			ScaleCapsuleForCrouching(crouch);
 			PreventStandingInLowHeadroom();
 
-			// send input and other state parameters to the animator
-			UpdateAnimator(move);
+            // send input and other state parameters to the animator
+            UpdateAnimator(move);
 		}
 
 
@@ -114,8 +115,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			}
 		}
 
-
-		void UpdateAnimator(Vector3 move)
+        void UpdateAnimator(Vector3 move)
 		{
 			// update the animator parameters
 			m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);

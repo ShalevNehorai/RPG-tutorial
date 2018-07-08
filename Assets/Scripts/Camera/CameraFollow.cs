@@ -8,13 +8,12 @@ public class CameraFollow : MonoBehaviour {
 
 	private static GameObject Player;
 
-
     public static GameObject SetPlayer
     {
         set { Player = value; }
     }
 
-	void Start () {
+    void Start () {
         //SearchForPlayer();
     }
 
@@ -26,16 +25,20 @@ public class CameraFollow : MonoBehaviour {
         }
     }
 
-    void LateUpdate () {
-		transform.position = Player.transform.position;
+    void LateUpdate ()
+    {
+        if (Player != null)
+        {
+            transform.position = Player.transform.position;
+        }
 	}
 
-    //public void SearchForPlayer()
-    //{
-    //    GameObject Player = GameObject.FindGameObjectWithTag(PlayerTag);
-    //    if (Player != null)
-    //    {
-    //        this.Player = Player;
-    //    }
-    //}
+    public void SearchForPlayer()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag(PlayerTag);
+        if (player != null)
+        {
+            SetPlayer = player;
+        }
+    }
 }
