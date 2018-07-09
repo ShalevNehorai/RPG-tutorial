@@ -798,8 +798,8 @@ MonoBehaviour:
   m_SyncSpin: 0
   m_MovementTheshold: 0.001
   m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 1
-  m_InterpolateRotation: 10
+  m_SnapThreshold: 10
+  m_InterpolateRotation: 20
   m_InterpolateMovement: 1
 --- !u!114 &114777722248231418
 MonoBehaviour:
@@ -856,6 +856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de211dfc428e214a944a24439d92cf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animMovment: 0
 --- !u!136 &136678947354774670
 CapsuleCollider:
   m_ObjectHideFlags: 1

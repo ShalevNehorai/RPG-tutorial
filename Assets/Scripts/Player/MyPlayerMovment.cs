@@ -59,6 +59,7 @@ public class MyPlayerMovment : NetworkBehaviour
     private void UpdateAnimator(Vector3 movement)
     {
         animator.SetFloat("Forward", Math.Abs(movement.z), 0.1f, Time.deltaTime);
+        GetComponent<SetupLocalPlayer>().CmdChangeAnim(movement.z);
     }
 }
 
