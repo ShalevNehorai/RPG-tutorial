@@ -10,7 +10,7 @@ public enum AttackType
     range
 }
 
-public class PlayerAttack : MonoBehaviour {
+public class PlayerAttack : NetworkBehaviour {
     [Header("General")]
     public AttackType attackType;
     public Transform spownPoint;
@@ -41,10 +41,13 @@ public class PlayerAttack : MonoBehaviour {
         }
     }
  
-    private void Attack(/*RaycastHit raycastHit, int layerHit*/)
+    private void SpownProjectile()
     {
-        //transform.LookAt(new Vector3(raycastHit.point.x, 0, raycastHit.point.z));
+        Instantiate(Projectile, spownPoint.transform.position, spownPoint.transform.rotation);
+    }
 
+    private void Attack()
+    {
         if (nextAttackTime > 0) { return; }
 
         switch (attackType)
@@ -53,9 +56,26 @@ public class PlayerAttack : MonoBehaviour {
                 Instantiate(Projectile, spownPoint.transform.position, spownPoint.transform.rotation);
                 break;
             case AttackType.range:
-                Instantiate(Projectile, spownPoint.transform.position, spownPoint.transform.rotation);
+                CmdAttack();
                 break;
         }
+
         nextAttackTime = 1 / attackSpeed;
+    }
+
+    [Command]
+    void CmdAttack()
+    {
+        SpownProjectile();
+        RpcAttack();
+    }
+
+    [ClientRpc]
+    void RpcAttack()
+    {
+        if(!isServer)
+        {
+            SpownProjectile();
+        }
     }
 }

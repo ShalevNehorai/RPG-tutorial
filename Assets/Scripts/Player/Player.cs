@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class Player : MonoBehaviour, IDamageable {
 
@@ -26,7 +27,7 @@ public class Player : MonoBehaviour, IDamageable {
 		}
 	}
 
-    public void TakeDamage(float damage)
+    void IDamageable.CmdTakeDamage(float damage)
     {
         this.currentHealth = Mathf.Clamp(currentHealth - damage, 0, MaxHealth);
     }
@@ -64,9 +65,11 @@ public class Player : MonoBehaviour, IDamageable {
             Component damageableComponent = currentTarget.GetComponent(typeof(IDamageable));
             if (damageableComponent && (Time.time - lastHitTime > secBetweenHit))
             {
-                (damageableComponent as IDamageable).TakeDamage(damage);
+                (damageableComponent as IDamageable).CmdTakeDamage(damage);
                 lastHitTime = Time.time;
             }
         }
     }
+    
+   
 }

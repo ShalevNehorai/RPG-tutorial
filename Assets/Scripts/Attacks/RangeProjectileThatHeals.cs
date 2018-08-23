@@ -28,11 +28,11 @@ public class RangeProjectileThatHeals : MonoBehaviour {
         {
             if (other.tag != "Player")
             {
-                damageableComponent.TakeDamage(Damage);
+                damageableComponent.CmdTakeDamage(Damage);
             }
             else
             {
-                damageableComponent.TakeDamage(-HealPoints);
+                damageableComponent.CmdTakeDamage(-HealPoints);
             }
         }
 

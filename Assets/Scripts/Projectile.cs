@@ -25,7 +25,7 @@ public class Projectile : MonoBehaviour {
         IDamageable damageableComponent = other.gameObject.GetComponent<IDamageable>();
         if (damageableComponent != null)
         {
-            damageableComponent.TakeDamage(Damage);
+            damageableComponent.CmdTakeDamage(Damage);
         }
 
         Destroy(gameObject);

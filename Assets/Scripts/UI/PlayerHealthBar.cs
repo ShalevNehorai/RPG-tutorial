@@ -12,14 +12,19 @@ public class PlayerHealthBar : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        player = FindObjectOfType<PlayerHealth>();
+        GetComponentInParent<PlayerHealth>().healthUI = this;
         healthBarRawImage = GetComponent<RawImage>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float xValue = -(player.healthAsPercentage / 2f) - 0.5f;
+        
+    }
+
+    public void ChangeHealthUI(float healthPersent)
+    {
+        float xValue = -(healthPersent / 2f) - 0.5f;
         healthBarRawImage.uvRect = new Rect(xValue, 0f, 0.5f, 1f);
     }
 }

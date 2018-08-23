@@ -1,4 +1,7 @@
-﻿public interface IDamageable
+﻿using UnityEngine.Networking;
+
+public interface IDamageable
 {
-    void TakeDamage(float damage);
+    [Command]
+    void CmdTakeDamage(float damage);
 }

@@ -19,7 +19,7 @@ public class MeleeAttack : MonoBehaviour {
         IDamageable damageableComponent = other.gameObject.GetComponent<IDamageable>();
         if (damageableComponent != null && other.tag != "Player")
         {
-            damageableComponent.TakeDamage(Damage);
+            damageableComponent.CmdTakeDamage(Damage);
         }
     }
 

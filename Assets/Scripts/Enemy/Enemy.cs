@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour, IDamageable {
 		}
 	}
 
-    public void TakeDamage(float damage)
+    public void CmdTakeDamage(float damage)
     {
         this.currentHealth = Mathf.Clamp(currentHealth - damage, 0, MaxHealth);
         if (currentHealth <= 0)
