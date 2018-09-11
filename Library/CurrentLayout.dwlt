@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 681, y: 342}
-  m_MaxSize: {x: 12006, y: 8042}
+  m_MinSize: {x: 683, y: 342}
+  m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 102
+  controlID: 75
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -88,8 +88,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 289
-    height: 364
+    width: 288
+    height: 357
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
@@ -112,9 +112,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 364
+    y: 357
     width: 968
-    height: 271
+    height: 278
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
@@ -144,7 +144,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -207,10 +207,10 @@ MonoBehaviour:
     y: 0
     width: 968
     height: 635
-  m_MinSize: {x: 404, y: 342}
-  m_MaxSize: {x: 8004, y: 8042}
+  m_MinSize: {x: 406, y: 342}
+  m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 51
+  controlID: 76
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,11 +230,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 968
-    height: 364
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+    height: 357
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 54
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,12 +249,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 289
+    x: 288
     y: 0
-    width: 679
-    height: 364
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 680
+    height: 357
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
@@ -262,7 +262,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 12}
   m_Selected: 1
-  m_LastSelected: 3
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -330,14 +330,14 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1018
+    x: 970
     y: 92
-    width: 348
+    width: 396
     height: 614
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
+  currentBranchAndRemoteHasUpdate: 1
   currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
@@ -522,13 +522,224 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 8695d4eaf3bf48c48894a6bbee15ac5d
+        - b8aa038e9d5f16f4c960c85bc1d9a627
+        - 866bb3b3df4900c438469f3039d354aa
+        - e2b631ffaf194e1428d0d4b6d54c939f
+        - b1946e1c1bae1c34ba2666ebb3463952
+        - 00000000000000004000000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes\Network Working Ground.unity
+          label: Network Working Ground.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\Network Working Ground.unity
+            fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+              Ground.unity
+            projectPath: Assets\Scenes\Network Working Ground.unity
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts\UI
+          label: UI
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts\UI\CharHealthUI.cs
+          label: CharHealthUI.cs
+          level: 3
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\UI\CharHealthUI.cs
+            fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\UI\CharHealthUI.cs
+            projectPath: Assets\Scripts\UI\CharHealthUI.cs
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          label: ProjectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectSettings.asset
+            fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\ProjectSettings.asset
+            projectPath: ProjectSettings\ProjectSettings.asset
+            originalPath: 
+            status: 3
+            staged: 0
       folders:
         keys:
+        - Assets
+        - Assets\Scenes
+        - Assets\Scripts
+        - Assets\Scripts\UI
         - Library
         - Library\ScriptAssemblies
+        - ProjectSettings
         values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts\UI
+          label: UI
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -550,6 +761,24 @@ MonoBehaviour:
         - path: Library\ScriptAssemblies
           label: ScriptAssemblies
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -592,6 +821,115 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
+          staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scenes\Network Working Ground.unity
+        label: Network Working Ground.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\Network Working Ground.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground.unity
+          projectPath: Assets\Scenes\Network Working Ground.unity
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scripts\UI
+        label: UI
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scripts\UI\CharHealthUI.cs
+        label: CharHealthUI.cs
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\UI\CharHealthUI.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\UI\CharHealthUI.cs
+          projectPath: Assets\Scripts\UI\CharHealthUI.cs
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library
         label: Library
@@ -647,8 +985,8 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\LastSceneManagerSetup.txt
-        label: LastSceneManagerSetup.txt
+      - path: Library\ProjectSettings.asset
+        label: ProjectSettings.asset
         level: 1
         isFolder: 0
         isContainer: 0
@@ -659,9 +997,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\LastSceneManagerSetup.txt
-          fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
-          projectPath: Library\LastSceneManagerSetup.txt
+          path: Library\ProjectSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ProjectSettings.asset
+          projectPath: Library\ProjectSettings.asset
           originalPath: 
           status: 3
           staged: 0
@@ -719,6 +1057,60 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        label: Assembly-CSharp-firstpass.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
       selectedNode:
         path: 
         label: 
@@ -739,6 +1131,18 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
+    - path: Assets\Scenes\Network Working Ground.unity
+      fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working Ground.unity
+      projectPath: Assets\Scenes\Network Working Ground.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\UI\CharHealthUI.cs
+      fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\UI\CharHealthUI.cs
+      projectPath: Assets\Scripts\UI\CharHealthUI.cs
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library\CurrentLayout.dwlt
       fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
       projectPath: Library\CurrentLayout.dwlt
@@ -751,9 +1155,9 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\LastSceneManagerSetup.txt
-      fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
-      projectPath: Library\LastSceneManagerSetup.txt
+    - path: Library\ProjectSettings.asset
+      fullPath: D:\Unity Projects\The4ElementsRPG\Library\ProjectSettings.asset
+      projectPath: Library\ProjectSettings.asset
       originalPath: 
       status: 3
       staged: 0
@@ -769,15 +1173,27 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    changedFilesText: 5 changed files
+    - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    changedFilesText: 9 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-07-08T21:21:45.196+03:00
+      updatedTimeString: 2018-08-23T11:16:14.157+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-07-08T21:44:15.831+03:00
+      updatedTimeString: 2018-08-23T11:22:34.734+03:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-07-08T21:44:15.523+03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -13574,7 +13990,7 @@ MonoBehaviour:
   currentRemoteName: master
   currentBranch: master
   currentRemoteUrl: https://github.com/ShalevNehorai/RPG-tutorial.git
-  statusAhead: 1
+  statusAhead: 3
   statusBehind: 0
   hasItemsToCommit: 1
   currentBranchContent:
@@ -13586,13 +14002,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-07-03T11:27:56.723+03:00
+    updatedTimeString: 2018-08-23T11:16:14.157+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-07-03T11:27:59.242+03:00
+    updatedTimeString: 2018-08-23T11:16:26.517+03:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-07-03T11:27:59.212+03:00
+    updatedTimeString: 2018-08-23T11:16:26.374+03:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -13610,8 +14026,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0.33333334
-  repositoryProgressMessage: Listing changed files...
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialization failed
 --- !u!114 &14
@@ -13636,10 +14052,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 239
+    y: 132
+    width: 468
+    height: 200
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -13663,9 +14079,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 456
+    y: 449
     width: 966
-    height: 250
+    height: 257
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -13678,19 +14094,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Players/FirePlayer
+    - Assets/Prefabs/UI
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Players/FirePlayer
+  - Assets/Prefabs/UI
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\The4ElementsRPG
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 91}
-    m_SelectedIDs: c62c0000
-    m_LastClickedID: 11462
-    m_ExpandedIDs: 0000000012280000242800008c280000be280000c42800005829000064290000662900007e2900002c2a00004a2a00005e2a0000842b0000ac2b0000102c00004e2c0000162d0000182d00001a2d0000602d00009e2d0000222f0000242f0000262f0000282f00002a2f00002c2f00002e2f0000302f0000322f0000ffffff7f
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: f62b0000
+    m_LastClickedID: 11254
+    m_ExpandedIDs: 0000000020280000322800009a280000cc280000d22800006629000072290000742900008c2900003a2a0000582a00006c2a0000922b0000ba2b00001e2c00005c2c0000242d0000262d0000282d00006e2d0000ac2d0000be2e0000c02e0000c22e0000c42e0000c62e0000c82e0000ca2e0000cc2e0000ce2e0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13718,7 +14134,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000012280000242800008c280000be280000c42800005829000064290000662900007e2900002c2a00004a2a00005e2a0000842b0000ac2b00004e2c0000162d0000182d00001a2d0000602d00009e2d0000222f0000242f0000262f0000282f00002a2f00002c2f00002e2f0000302f0000322f0000
+    m_ExpandedIDs: 0000000020280000322800009a280000cc280000d22800006629000072290000742900008c2900003a2a0000582a00006c2a0000922b0000ba2b00001e2c00005c2c0000242d0000262d0000282d00006e2d0000ac2d0000be2e0000c02e0000c22e0000c42e0000c62e0000c82e0000ca2e0000cc2e0000ce2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13746,7 +14162,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000046070000dc270000d8f300008c280000000000008e2b0000a22b0000
+    m_ExpandedInstanceIDs: c623000046070000dc270000d8f300008c28000000000000a22b0000b02800009e2b0000c0280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13830,13 +14246,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
-    width: 287
-    height: 343
+    width: 286
+    height: 336
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 422f0000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 588dfeff4a8ffefff690fefff4b3feff0eb5feffa0b6feffa400ffff2201ffffb402ffffca05ffffa0ccffffa6fbffff00000000
+    m_ExpandedIDs: 9ad7feff16d8feffa0d9feff76dffefff2dffeff7ce1feffcef8feff54f9feffe0fafeff5809ffffde09ffff740bfffff067ffff7c68ffff0e6affff3077ffffbc77ffff4e79ffffc685ffff5286ffff0088ffffcca7ffff4ea8fffffca9ffffdad8ffff40d9ffffd2daffff8efbffff00000000e83a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13918,7 +14334,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.42906794, y: 0.47615302, z: -0.28697485, w: -0.711916}
     speed: 2
-    m_Value: {x: -0.42906794, y: 0.47615302, z: -0.28697485, w: -0.711916}
+    m_Value: {x: -0.42906794, y: 0.47615305, z: -0.28697488, w: -0.711916}
   m_Size:
     m_Target: 20.797234
     speed: 2
@@ -13956,10 +14372,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 291
+    x: 290
     y: 92
-    width: 675
-    height: 343
+    width: 676
+    height: 336
   m_MaximizeOnPlay: 0
   m_Gizmos: 1
   m_Stats: 0
@@ -13968,10 +14384,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -337.5
-    m_HBaseRangeMax: 337.5
-    m_VBaseRangeMin: -163
-    m_VBaseRangeMax: 163
+    m_HBaseRangeMin: -338
+    m_HBaseRangeMax: 338
+    m_VBaseRangeMin: -159.5
+    m_VBaseRangeMax: 159.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -13988,25 +14404,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 675
-      height: 326
+      width: 676
+      height: 319
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 337.5, y: 163}
+    m_Translation: {x: 338, y: 159.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -337.5
-      y: -163
-      width: 675
-      height: 326
+      x: -338
+      y: -159.5
+      width: 676
+      height: 319
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 675, y: 343}
+  m_LastWindowPixelSize: {x: 676, y: 336}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -14033,6 +14449,6 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 456
+    y: 449
     width: 966
-    height: 250
+    height: 257

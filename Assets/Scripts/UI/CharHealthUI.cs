@@ -11,11 +11,18 @@ public class CharHealthUI : MonoBehaviour {
 
     Camera cameraToLookAt;
 
+    private GameObject healthHolder;
+
     // Use this for initialization 
     void Start()
     {
         cameraToLookAt = Camera.main;
         Instantiate(CanvasPrefab, transform.position, Quaternion.identity, transform);
+
+
+        GameObject canvas = GameObject.FindWithTag("MainCanvas");
+        healthHolder = Instantiate(CanvasPrefab, Vector3.zero, Quaternion.identity);
+        healthHolder.transform.SetParent(canvas.transform);
     }
 
     // Update is called once per frame 
@@ -24,4 +31,5 @@ public class CharHealthUI : MonoBehaviour {
         transform.LookAt(cameraToLookAt.transform);
         transform.rotation = Quaternion.LookRotation(cameraToLookAt.transform.forward);
     }
+
 }

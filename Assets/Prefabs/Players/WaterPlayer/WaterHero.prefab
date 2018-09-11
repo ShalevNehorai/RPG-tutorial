@@ -143,10 +143,13 @@ GameObject:
   - component: {fileID: 95620427615339500}
   - component: {fileID: 54842357690705840}
   - component: {fileID: 136134513381226764}
+  - component: {fileID: 114390194878601054}
+  - component: {fileID: 114085187037730374}
   - component: {fileID: 114161068593257470}
   - component: {fileID: 114255030188025070}
-  - component: {fileID: 114085187037730374}
-  - component: {fileID: 114390194878601054}
+  - component: {fileID: 114202122190731872}
+  - component: {fileID: 114942593328875690}
+  - component: {fileID: 114613009912586066}
   m_Layer: 0
   m_Name: WaterHero
   m_TagString: Player
@@ -472,7 +475,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1399790976024480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0342102, y: 0, z: 0.0256958}
+  m_LocalPosition: {x: 4.5923395, y: 0.5, z: 2.6792064}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4173679595288602}
@@ -729,6 +732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6fff22fed891d34db340bda94dc900d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1000
 --- !u!114 &114161068593257470
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -744,6 +748,38 @@ MonoBehaviour:
   spownPoint: {fileID: 4337214023070450}
   attackSpeed: 0.7
   Projectile: {fileID: 1720395377114126, guid: ac39bc70d59fda04bb02265e70f92958, type: 2}
+--- !u!114 &114202122190731872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1399790976024480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 36
+    i1: 199
+    i2: 119
+    i3: 26
+    i4: 28
+    i5: 103
+    i6: 101
+    i7: 212
+    i8: 75
+    i9: 111
+    i10: 223
+    i11: 4
+    i12: 122
+    i13: 211
+    i14: 217
+    i15: 230
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114255030188025070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -755,6 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9a2b2ec2ea38240ad532529580d729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthUI: {fileID: 0}
   MaxHealth: 100
 --- !u!114 &114390194878601054
 MonoBehaviour:
@@ -775,6 +812,18 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 0.7
   m_AnimSpeedMultiplier: 1.7
   m_GroundCheckDistance: 0.3
+--- !u!114 &114613009912586066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1399790976024480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de211dfc428e214a944a24439d92cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animMovment: 0
 --- !u!114 &114785252411968436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -786,8 +835,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1946e1c1bae1c34ba2666ebb3463952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyCanvasPrefab: {fileID: 1311539807392560, guid: 4afaf722c29d88a4ea6d772c9919b487,
-    type: 2}
+  CanvasPrefab: {fileID: 0}
+--- !u!114 &114942593328875690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1399790976024480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.0625
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 10
+  m_InterpolateRotation: 20
+  m_InterpolateMovement: 1
 --- !u!136 &136134513381226764
 CapsuleCollider:
   m_ObjectHideFlags: 1

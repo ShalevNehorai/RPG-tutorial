@@ -181,6 +181,9 @@ GameObject:
   - component: {fileID: 114262778866626904}
   - component: {fileID: 114964430885541080}
   - component: {fileID: 114650290957663546}
+  - component: {fileID: 114227503164299354}
+  - component: {fileID: 114156549043225144}
+  - component: {fileID: 114032602477964588}
   m_Layer: 0
   m_Name: EarthHero
   m_TagString: Player
@@ -700,7 +703,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1445323956596296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.02, y: 0, z: -0.05}
+  m_LocalPosition: {x: 2.3747525, y: 0.5, z: 0.36297703}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4587217452337446}
@@ -891,6 +894,39 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114032602477964588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445323956596296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de211dfc428e214a944a24439d92cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animMovment: 0
+--- !u!114 &114156549043225144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445323956596296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.0625
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 10
+  m_InterpolateRotation: 20
+  m_InterpolateMovement: 1
 --- !u!114 &114171729691750118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -910,6 +946,38 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 0.7
   m_AnimSpeedMultiplier: 1.7
   m_GroundCheckDistance: 0.3
+--- !u!114 &114227503164299354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445323956596296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 10
+    i1: 112
+    i2: 83
+    i3: 246
+    i4: 238
+    i5: 225
+    i6: 195
+    i7: 52
+    i8: 154
+    i9: 229
+    i10: 234
+    i11: 38
+    i12: 149
+    i13: 217
+    i14: 117
+    i15: 48
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!114 &114262778866626904
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -921,6 +989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6fff22fed891d34db340bda94dc900d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1000
 --- !u!114 &114650290957663546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -932,6 +1001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9a2b2ec2ea38240ad532529580d729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthUI: {fileID: 0}
   MaxHealth: 100
 --- !u!114 &114786657619797924
 MonoBehaviour:
@@ -944,8 +1014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1946e1c1bae1c34ba2666ebb3463952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyCanvasPrefab: {fileID: 1311539807392560, guid: 4afaf722c29d88a4ea6d772c9919b487,
-    type: 2}
+  CanvasPrefab: {fileID: 0}
 --- !u!114 &114964430885541080
 MonoBehaviour:
   m_ObjectHideFlags: 1
