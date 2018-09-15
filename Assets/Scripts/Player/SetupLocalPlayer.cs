@@ -48,4 +48,25 @@ public class SetupLocalPlayer : NetworkBehaviour {
             ChangeAnim(move);
         }
     }
+
+    private void OnGUI()
+    {
+        if (isLocalPlayer)
+        {
+            if (Event.current.Equals(Event.KeyboardEvent("0")) ||
+               Event.current.Equals(Event.KeyboardEvent("1")) ||
+               Event.current.Equals(Event.KeyboardEvent("2")) ||
+               Event.current.Equals(Event.KeyboardEvent("3")))
+            {
+                int charID = int.Parse(Event.current.keyCode.ToString().Substring(5)) + 1;
+                CmdUpdatePlayerCharacter(charID);
+            }
+        }
+    }
+
+    [Command]
+    public void CmdUpdatePlayerCharacter(int cid)
+    {
+        NetworkManager.singleton.GetComponent<CostumNetworkManager>().SwitchPlayer(this, cid);
+    }
 }
