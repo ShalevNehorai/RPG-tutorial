@@ -24,11 +24,6 @@ public class PlayerHealth : NetworkBehaviour, IDamageable
     {
         this.currentHealth = Mathf.Clamp(currentHealth - damage, 0, MaxHealth);
         healthUI.ChangeHealthUI(healthAsPercentage);
-
-        if(currentHealth<=0)
-        {
-            Destroy(this.gameObject);
-        }
     }
 
     void Awake()

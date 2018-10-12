@@ -199,19 +199,12 @@ namespace Prototype.NetworkLobby
         {
             playerColor = newColor;
             colorButton.GetComponent<Image>().color = newColor;
-
-            
         }
 
         public void OnCharID(int id)
         {
             CharID = id;
             IDText.text = HeroNames[CharID];
-
-            if (isServer)
-                RpcAvatarPicked(CharID + 1);
-            else
-                CmdAvatarPicked(CharID + 1);
         }
 
         //===== UI Handler
@@ -304,7 +297,10 @@ namespace Prototype.NetworkLobby
             playerColor = Colors[idx];
             CharID = System.Array.IndexOf(Colors, playerColor);
 
-           
+            if (isServer)
+                RpcAvatarPicked(CharID + 1);
+            else
+                CmdAvatarPicked(CharID + 1);
         }
 
         [Command]

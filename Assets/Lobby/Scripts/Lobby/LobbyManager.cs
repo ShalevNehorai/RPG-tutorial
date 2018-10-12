@@ -6,6 +6,7 @@ using UnityEngine.Networking.Types;
 using UnityEngine.Networking.Match;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 namespace Prototype.NetworkLobby
 {
@@ -293,14 +294,25 @@ namespace Prototype.NetworkLobby
             {
                 currentPlayers[conn.connectionId] = type;
             }
+            else
+            {
+                currentPlayers.Add(conn.connectionId, type);
+            }
         }
 
         public override GameObject OnLobbyServerCreateGamePlayer(NetworkConnection conn, short playerControllerId)
         {
             int index = currentPlayers[conn.connectionId];
-            GameObject playerPrefab = (GameObject)GameObject.Instantiate(spawnPrefabs[index],
-                startPositions[conn.connectionId].position,
-                Quaternion.identity);
+            Vector3 spownPos;
+            try
+            {
+                spownPos = startPositions[conn.connectionId].position;
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                spownPos = Vector3.zero;
+            }
+            GameObject playerPrefab = (GameObject)GameObject.Instantiate(spawnPrefabs[index], spownPos, Quaternion.identity);
             return playerPrefab;
         }
 
