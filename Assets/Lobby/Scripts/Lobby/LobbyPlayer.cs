@@ -11,7 +11,7 @@ namespace Prototype.NetworkLobby
     //Any LobbyHook can then grab it and pass those value to the game player prefab (see the Pong Example in the Samples Scenes)
     public class LobbyPlayer : NetworkLobbyPlayer
     {
-        static Color[] Colors = new Color[] {  Color.red, Color.blue, Color.white, Color.green};
+        static Color[] Colors = new Color[] {  Color.red, Color.blue, Color.gray, Color.green};
         static string[] HeroNames = new string[] { "Fire", "Water", "Air", "Earth" };
         //used on server to avoid assigning the same color to two player
         static List<int> _colorInUse = new List<int>();
@@ -69,6 +69,7 @@ namespace Prototype.NetworkLobby
             OnMyName(playerName);
             OnMyColor(playerColor);
             OnCharID(System.Array.IndexOf(Colors, playerColor));
+            CmdAvatarPicked(CharID+1);
         }
 
         public override void OnStartAuthority()
@@ -206,6 +207,11 @@ namespace Prototype.NetworkLobby
         {
             CharID = id;
             IDText.text = HeroNames[CharID];
+
+            if (isServer)
+                RpcAvatarPicked(CharID + 1);
+            else
+                CmdAvatarPicked(CharID + 1);
         }
 
         //===== UI Handler
@@ -298,7 +304,7 @@ namespace Prototype.NetworkLobby
             playerColor = Colors[idx];
             CharID = System.Array.IndexOf(Colors, playerColor);
 
-            LobbyManager.s_Singleton.gamePlayerPrefab = LobbyManager.s_Singleton.spawnPrefabs[1 + System.Array.IndexOf(Colors, playerColor)];
+           
         }
 
         [Command]
@@ -326,6 +332,16 @@ namespace Prototype.NetworkLobby
                     break;
                 }
             }
+        }
+        [ClientRpc]
+        public void RpcAvatarPicked(int avIndex)
+        {
+            CmdAvatarPicked(avIndex);
+        }
+        [Command]
+        public void CmdAvatarPicked(int avIndex)
+        {
+            LobbyManager.s_Singleton.SetPlayerTypeLobby(GetComponent<NetworkIdentity>().connectionToClient, avIndex);
         }
     }
 }
