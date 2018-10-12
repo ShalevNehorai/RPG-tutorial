@@ -69,7 +69,7 @@ namespace Prototype.NetworkLobby
             OnMyName(playerName);
             OnMyColor(playerColor);
             OnCharID(System.Array.IndexOf(Colors, playerColor));
-            CmdAvatarPicked(CharID+1);
+            CmdAvatarPicked(CharID + 1);
         }
 
         public override void OnStartAuthority()
