@@ -742,8 +742,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1986961006}
-  - component: {fileID: 1986961005}
   - component: {fileID: 1986961004}
+  - component: {fileID: 1986961005}
   m_Layer: 0
   m_Name: Netwotk Manager
   m_TagString: Untagged
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1986961003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -822479833, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 5575b601b56d87247ae9c38b59730716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_NetworkPort: 7777
@@ -786,14 +786,18 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 1399790976024480, guid: 24c7771a1c6765d44b6fdf047ad3d9e6,
+  m_PlayerPrefab: {fileID: 1645247090730346, guid: 884732c97e26ff34ca848ff22090d861,
     type: 2}
   m_AutoCreatePlayer: 1
-  m_PlayerSpawnMethod: 1
+  m_PlayerSpawnMethod: 0
   m_OfflineScene: 
   m_OnlineScene: 
   m_SpawnPrefabs:
   - {fileID: 1200597745226310, guid: c85b5af60892c7846bfbfa2089e32020, type: 2}
+  - {fileID: 1645247090730346, guid: 884732c97e26ff34ca848ff22090d861, type: 2}
+  - {fileID: 1399790976024480, guid: 24c7771a1c6765d44b6fdf047ad3d9e6, type: 2}
+  - {fileID: 1226114629191204, guid: 55d4a79de8ca58b429aab08b9266500c, type: 2}
+  - {fileID: 1445323956596296, guid: 0a7053f6eee1c3349ae5ea2695d97530, type: 2}
   m_CustomConfig: 0
   m_MaxConnections: 4
   m_ConnectionConfig:
@@ -849,6 +853,13 @@ MonoBehaviour:
   matchSize: 4
   isNetworkActive: 0
   matchMaker: {fileID: 0}
+  playerPrefabIndex: 0
+  selGridInt: 0
+  selString:
+  - Fire
+  - Water
+  - Air
+  - Earth
 --- !u!4 &1986961006
 Transform:
   m_ObjectHideFlags: 0
