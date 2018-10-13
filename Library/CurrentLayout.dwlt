@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 679, y: 342}
-  m_MaxSize: {x: 12004, y: 8042}
+  m_MinSize: {x: 508, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 122
+  controlID: 107
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 968
     height: 635
-  m_MinSize: {x: 404, y: 342}
-  m_MaxSize: {x: 8004, y: 8042}
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 12
+  controlID: 51
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 968
     height: 351
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 13
+  controlID: 52
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,14 +229,14 @@ MonoBehaviour:
     y: 351
     width: 968
     height: 284
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,15 +255,15 @@ MonoBehaviour:
     y: 0
     width: 398
     height: 635
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -351,23 +351,23 @@ MonoBehaviour:
     height: 330
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b6910000
-    m_LastClickedID: 37302
-    m_ExpandedIDs: 9cf8fdff1ef9fdfffefafdff06fbfdff3000feffb200feff9402feff9c02feffd63afeff843bfeff643dfeff6c3dfeffaa42feff5843feff3845feff4045feff486afefff66afeffd66cfeffde6cfeffc273feff7074feff5076feff5876feff3cdcfeffe6dcfeffc8defeffd0defeffc202ffff2c78ffff167affffc07effff4a7fffff2c81ffff3481ffff40a8ffff06bfffff8ebfffff8ac1ffffacc1ffff8cf1ffff08f2ffffecf3fffff4f3ffffa6fbfffff4ffffff0000000028440000c24400009c450000ce45000036500000d0500000aa510000dc510000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: a4fdfeff3afefeff1a00ffff2200ffff0815ffff9e15ffff7e17ffff8617ffff4c1cffffde1cffffbe1effffc61effff0626ffff9c26ffff7c28ffff8428ffff0a2effffa02effff8230ffff8a30fffffa43ffff9044ffff7046ffff7846ffff1a4bffffb04bffff904dffff984dffffcc53ffff6254ffff4856ffff5456fffffe71ffff9472ffff7474ffff7c74ffff1679ffffac79ffff8c7bffff947bffff2498ffffba98ffff9a9affffa29affff82a0ffff18a1fffff8a2ffff00a3ffff20a9ffffb2a9ffff92abffff9aabffff9ec5ffff34c6ffff14c8ffff1cc8ffff3eccffffd4ccffffb4ceffffbcceffffd4d2ffff6ad3ffff4ad5ffff52d5ffff4cd9ffffe4d9ffffcadbffffd2dbffffa6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PlayerInfo
-      m_OriginalName: PlayerInfo
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -64830
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -611,19 +611,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Players/EarthPlayer
+    - Assets/Lobby/Scripts/Lobby
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Players/EarthPlayer
+  - Assets/Lobby/Scripts/Lobby
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\The4ElementsRPG
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 42}
-    m_SelectedIDs: c02a0000
-    m_LastClickedID: 10944
-    m_ExpandedIDs: 0000000032280000cc280000062900000c290000be290000ca290000cc290000e6290000d82a0000e02a0000f62a0000482b00003e2c0000662c0000062e0000082e0000522e0000902e00007a3400007c3400007e34000080340000823400008434000086340000883400008a340000ffffff7f
+    m_SelectedIDs: 8c2b0000
+    m_LastClickedID: 11148
+    m_ExpandedIDs: 0000000034280000ce280000082900000e290000c0290000cc290000ce290000e8290000da2a0000e22a0000f82a00004a2b00003e2c0000662c0000062e0000082e0000522e0000902e00007a3400007c3400007e34000080340000823400008434000086340000883400008a340000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -651,7 +651,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000032280000cc280000062900000c290000be290000ca290000cc290000e6290000d82a0000e02a0000f62a0000482b00003e2c0000662c0000062e0000082e0000522e0000902e00007a3400007c3400007e34000080340000823400008434000086340000883400008a340000
+    m_ExpandedIDs: 0000000034280000ce280000082900000e290000c0290000cc290000ce290000e8290000da2a0000e22a0000f82a00004a2b00003e2c0000662c0000062e0000082e0000522e0000902e00007a3400007c3400007e34000080340000823400008434000086340000883400008a340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -758,7 +758,7 @@ MonoBehaviour:
     y: 92
     width: 396
     height: 614
-  m_ScrollPosition: {x: 0, y: 907.9551}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -112
@@ -795,9 +795,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -970,342 +970,19 @@ MonoBehaviour:
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
-    treeScroll: {x: 0, y: 0}
+    treeScroll: {x: 0, y: 140}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 01b167077f96ef845aeb8363fc14cb2b
-        - e66249d5267b56c4a8f6f976c79b5900
-        - 530c27450efe6b94db1c5b6c3a950384
-        - 8695d4eaf3bf48c48894a6bbee15ac5d
-        - 8d80891ed97b9b447ba77ec40facc2c3
-        - 866bb3b3df4900c438469f3039d354aa
-        - 8a67ca56964aad14a973c6cc8e615ccc
-        - 5b9a2b2ec2ea38240ad532529580d729
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Lobby
-          label: Lobby
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Lobby\Prefabs
-          label: Prefabs
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Lobby\Prefabs\PlayerInfo.prefab
-          label: PlayerInfo.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Lobby\Prefabs\PlayerInfo.prefab
-            fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Prefabs\PlayerInfo.prefab
-            projectPath: Assets\Lobby\Prefabs\PlayerInfo.prefab
-            originalPath: 
-            status: 3
-            staged: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scenes\Lobby.unity
-          label: Lobby.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\Lobby.unity
-            fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
-            projectPath: Assets\Scenes\Lobby.unity
-            originalPath: 
-            status: 3
-            staged: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Player
-          label: Player
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Player\PlayerHealth.cs
-          label: PlayerHealth.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Player\PlayerHealth.cs
-            fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\PlayerHealth.cs
-            projectPath: Assets\Scripts\Player\PlayerHealth.cs
-            originalPath: 
-            status: 3
-            staged: 0
+        keys: []
+        values: []
       folders:
-        keys:
-        - Assets
-        - Assets\Lobby
-        - Assets\Lobby\Prefabs
-        - Assets\Scenes
-        - Assets\Scripts
-        - Assets\Scripts\Player
-        - Library
-        - Library\ScriptAssemblies
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Lobby
-          label: Lobby
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Lobby\Prefabs
-          label: Prefabs
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Player
-          label: Player
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library
-          label: Library
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\ScriptAssemblies
-          label: ScriptAssemblies
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -1334,312 +1011,6 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Lobby
-        label: Lobby
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Lobby\Prefabs
-        label: Prefabs
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Lobby\Prefabs\PlayerInfo.prefab
-        label: PlayerInfo.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Lobby\Prefabs\PlayerInfo.prefab
-          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Prefabs\PlayerInfo.prefab
-          projectPath: Assets\Lobby\Prefabs\PlayerInfo.prefab
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scenes\Lobby.unity
-        label: Lobby.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\Lobby.unity
-          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
-          projectPath: Assets\Scenes\Lobby.unity
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scripts\Player
-        label: Player
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scripts\Player\PlayerHealth.cs
-        label: PlayerHealth.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Player\PlayerHealth.cs
-          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\PlayerHealth.cs
-          projectPath: Assets\Scripts\Player\PlayerHealth.cs
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library
-        label: Library
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\CurrentLayout.dwlt
-        label: CurrentLayout.dwlt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\CurrentLayout.dwlt
-          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
-          projectPath: Library\CurrentLayout.dwlt
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\InspectorExpandedItems.asset
-        label: InspectorExpandedItems.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\InspectorExpandedItems.asset
-          fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
-          projectPath: Library\InspectorExpandedItems.asset
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\LastSceneManagerSetup.txt
-        label: LastSceneManagerSetup.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\LastSceneManagerSetup.txt
-          fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
-          projectPath: Library\LastSceneManagerSetup.txt
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies
-        label: ScriptAssemblies
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-        label: Assembly-CSharp.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp.dll
-          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-        label: Assembly-CSharp.dll.mdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-        label: Assembly-CSharp-firstpass.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-          originalPath: 
-          status: 3
-          staged: 0
       selectedNode:
         path: 
         label: 
@@ -1659,70 +1030,16 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-    gitStatusEntries:
-    - path: Assets\Lobby\Prefabs\PlayerInfo.prefab
-      fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Prefabs\PlayerInfo.prefab
-      projectPath: Assets\Lobby\Prefabs\PlayerInfo.prefab
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Assets\Scenes\Lobby.unity
-      fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
-      projectPath: Assets\Scenes\Lobby.unity
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Assets\Scripts\Player\PlayerHealth.cs
-      fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\PlayerHealth.cs
-      projectPath: Assets\Scripts\Player\PlayerHealth.cs
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\CurrentLayout.dwlt
-      fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
-      projectPath: Library\CurrentLayout.dwlt
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\InspectorExpandedItems.asset
-      fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
-      projectPath: Library\InspectorExpandedItems.asset
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\LastSceneManagerSetup.txt
-      fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
-      projectPath: Library\LastSceneManagerSetup.txt
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-      fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-      fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-      fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-      originalPath: 
-      status: 3
-      staged: 0
-    changedFilesText: 9 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-10-12T17:31:15.085+03:00
+      updatedTimeString: 2018-10-13T01:00:20.078+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-10-12T18:09:58.773+03:00
+      updatedTimeString: 2018-10-13T00:59:58.523+03:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-10-12T18:09:29.251+03:00
+      updatedTimeString: 2018-10-13T00:58:09.795+03:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -16956,7 +16273,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/ShalevNehorai/RPG-tutorial.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   currentBranchContent:
     m_Text: master
     m_Image: {fileID: 0}
@@ -16966,13 +16283,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-10-12T17:31:15.085+03:00
+    updatedTimeString: 2018-10-13T01:00:20.078+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-10-12T17:31:16.966+03:00
+    updatedTimeString: 2018-10-13T01:00:19.483+03:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-10-12T17:44:14.016+03:00
+    updatedTimeString: 2018-10-13T00:59:58.523+03:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull

@@ -303,16 +303,8 @@ namespace Prototype.NetworkLobby
         public override GameObject OnLobbyServerCreateGamePlayer(NetworkConnection conn, short playerControllerId)
         {
             int index = currentPlayers[conn.connectionId];
-            Vector3 spownPos;
-            try
-            {
-                spownPos = startPositions[conn.connectionId].position;
-            }
-            catch (ArgumentOutOfRangeException ex)
-            {
-                spownPos = Vector3.zero;
-            }
-            GameObject playerPrefab = (GameObject)GameObject.Instantiate(spawnPrefabs[index], spownPos, Quaternion.identity);
+            GameObject playerPrefab = (GameObject)GameObject.Instantiate(spawnPrefabs[index], 
+                GetNetworkStartPosition(conn.connectionId).transform.position, Quaternion.identity);
             return playerPrefab;
         }
 
@@ -425,6 +417,22 @@ namespace Prototype.NetworkLobby
         {
             ChangeTo(mainMenuPanel);
             infoPanel.Display("Cient error : " + (errorCode == 6 ? "timeout" : errorCode.ToString()), "Close", null);
+        }
+
+        public NetworkStartPosition GetNetworkStartPosition(int connectionId)
+        {
+            List<NetworkStartPosition> startPositions = new List<NetworkStartPosition>();
+            GameObject[] gameObjects = SceneManager.GetSceneByName(playScene).GetRootGameObjects();
+
+            foreach (GameObject obj in gameObjects)
+            {
+                NetworkStartPosition strPos = obj.GetComponent<NetworkStartPosition>();
+                if (strPos != null)
+                {
+                    startPositions.Add(strPos);
+                }
+            }
+            return startPositions[connectionId];
         }
     }
 }

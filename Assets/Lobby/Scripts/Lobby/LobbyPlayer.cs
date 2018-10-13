@@ -30,7 +30,7 @@ namespace Prototype.NetworkLobby
         [SyncVar(hook = "OnMyName")]
         public string playerName = "";
         [SyncVar(hook = "OnMyColor")]
-        public Color playerColor = Color.white;
+        public Color playerColor = Color.red;
         [SyncVar(hook = "OnCharID")]
         public int CharID = 0;
 
