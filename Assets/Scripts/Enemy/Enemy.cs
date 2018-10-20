@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
-//using UnityEditor;
 using UnityStandardAssets.Characters.ThirdPerson;
 
 
@@ -21,9 +21,10 @@ public class Enemy : MonoBehaviour, IDamageable {
 
 	private float currentHealth;
     private float nextAttackTime = 0;
+    private CapsuleCollider CapsuleCollider;
 
 	private AICharacterControl aiCharacterController = null;
-	private GameObject Player = null;
+	private GameObject target = null;
 
 	public float healthAsPercentage 
 	{
@@ -45,30 +46,62 @@ public class Enemy : MonoBehaviour, IDamageable {
     void Awake()
 	{
 		currentHealth = MaxHealth;
-	}
+        CapsuleCollider = GetComponent<CapsuleCollider>();
+        CapsuleCollider.radius = Mathf.Max(ChaseRadius, AttackRange);
+    }
 		
 	void Start ()
     {
 		aiCharacterController = GetComponent<AICharacterControl> ();
-		Player = GameObject.FindGameObjectWithTag ("Player");
 	}
 
 	void Update ()
     {
-		float distansToTarget = Vector3.Distance(Player.transform.position, transform.position);
-		if (distansToTarget < ChaseRadius) 
-		{
-			aiCharacterController.SetTarget (Player.transform);
-		} 
-		else 
-		{
-			aiCharacterController.SetTarget (transform);
-		}
-
-        if (distansToTarget < AttackRange && Time.time >= nextAttackTime)
+        if (target)
         {
-            nextAttackTime = Time.time + secBetweenShot;
-            Attack();
+            float distansToTarget = Vector3.Distance(target.transform.position, transform.position);
+            if (distansToTarget < ChaseRadius)
+            {
+                aiCharacterController.SetTarget(target.transform);
+            }
+            else
+            {
+                aiCharacterController.SetTarget(transform);
+            }
+
+            if (distansToTarget < AttackRange && Time.time >= nextAttackTime)
+            {
+                nextAttackTime = Time.time + secBetweenShot;
+                Attack();
+            }
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            if (!target)
+            {
+                target = other.gameObject;
+            }
+            else
+            {
+                float distansToTarget = Vector3.Distance(target.transform.position, transform.position);
+                float distansToNewTarget = Vector3.Distance(other.transform.position, transform.position);
+                if (distansToTarget > distansToNewTarget)
+                {
+                    target = other.gameObject;
+                }
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject == target)
+        {
+            target = null;
         }
     }
 
@@ -76,17 +109,18 @@ public class Enemy : MonoBehaviour, IDamageable {
     {
         Projectile newProjectile = Instantiate(ProjectileToUse, ProjectileSpownPoint.position, Quaternion.identity).GetComponent<Projectile>();
         newProjectile.Damage = this.Damage;
-        newProjectile.Target = Player.transform;
+        newProjectile.Target = target.transform;
+        newProjectile.shooter = this.gameObject;
     }
 
-	//void OnDrawGizmos()
-	//{
- //       //drow chase circale
-	//	Handles.color = Color.blue;
-	//	Handles.DrawWireDisc (transform.position, Vector3.up, ChaseRadius);
+    void OnDrawGizmos()
+    {
+        //drow chase circale
+        Handles.color = Color.blue;
+        Handles.DrawWireDisc(transform.position, Vector3.up, ChaseRadius);
 
- //       //drow attack circale
-	//	Handles.color = Color.red;
-	//	Handles.DrawWireDisc (transform.position, Vector3.up, AttackRange);
-	//}
+        //drow attack circale
+        Handles.color = Color.red;
+        Handles.DrawWireDisc(transform.position, Vector3.up, AttackRange);
+    }
 }

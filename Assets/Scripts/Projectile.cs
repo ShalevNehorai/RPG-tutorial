@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour {
 
+    
     public float Speed = 10f;
     [SerializeField] Vector3 aimOffset = new Vector3(0, 1f, 0);
 
     [HideInInspector]public Transform Target;
     [HideInInspector]public float Damage;
+    [HideInInspector]public GameObject shooter;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +24,10 @@ public class Projectile : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject == shooter)
+        {
+            return;
+        }
         IDamageable damageableComponent = other.gameObject.GetComponent<IDamageable>();
         if (damageableComponent != null)
         {
