@@ -21,20 +21,10 @@ public class RangeProjectile : NetworkBehaviour {
         transform.Translate(Vector3.forward * Speed * Time.deltaTime);
     }
 
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    IDamageable damageableComponent = other.gameObject.GetComponent<IDamageable>();
-    //    if (damageableComponent != null /*&& other.tag != "Player"*/)
-    //    {
-    //        damageableComponent.CmdTakeDamage(Damage);
-    //    }
-
-    //    Destroy(gameObject);
-    //}
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        IDamageable damageableComponent = collision.gameObject.GetComponent<IDamageable>();
-        if (damageableComponent != null /*&& other.tag != "Player"*/)
+        IDamageable damageableComponent = other.gameObject.GetComponent<IDamageable>();
+        if (damageableComponent != null && other.tag != "Player")
         {
             damageableComponent.CmdTakeDamage(Damage);
         }

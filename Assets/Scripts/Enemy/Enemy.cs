@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.AI;
 using UnityStandardAssets.Characters.ThirdPerson;
 
 
-public class Enemy : MonoBehaviour, IDamageable {
+public class Enemy : NetworkBehaviour, IDamageable {
 
 	[SerializeField] float MaxHealth = 100f;
 	[SerializeField] float ChaseRadius = 5f;
@@ -21,10 +22,11 @@ public class Enemy : MonoBehaviour, IDamageable {
 
 	private float currentHealth;
     private float nextAttackTime = 0;
-    private CapsuleCollider CapsuleCollider;
 
 	private AICharacterControl aiCharacterController = null;
-	private GameObject target = null;
+	[SerializeField] private GameObject target = null;
+
+    private GameObject[] players;
 
 	public float healthAsPercentage 
 	{
@@ -46,60 +48,54 @@ public class Enemy : MonoBehaviour, IDamageable {
     void Awake()
 	{
 		currentHealth = MaxHealth;
-        CapsuleCollider = GetComponent<CapsuleCollider>();
-        CapsuleCollider.radius = Mathf.Max(ChaseRadius, AttackRange);
     }
 		
 	void Start ()
     {
 		aiCharacterController = GetComponent<AICharacterControl> ();
+        SetPlayers();
+
+        InvokeRepeating("SetTarget", 1, 0.2f);
 	}
 
 	void Update ()
     {
+        SetPlayers();
         if (target)
         {
             float distansToTarget = Vector3.Distance(target.transform.position, transform.position);
-            if (distansToTarget < ChaseRadius)
-            {
-                aiCharacterController.SetTarget(target.transform);
-            }
-            else
-            {
-                aiCharacterController.SetTarget(transform);
-            }
-
+            aiCharacterController.SetTarget(target.transform);
             if (distansToTarget < AttackRange && Time.time >= nextAttackTime)
             {
                 nextAttackTime = Time.time + secBetweenShot;
                 Attack();
             }
         }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Player")
+        else
         {
-            if (!target)
-            {
-                target = other.gameObject;
-            }
-            else
-            {
-                float distansToTarget = Vector3.Distance(target.transform.position, transform.position);
-                float distansToNewTarget = Vector3.Distance(other.transform.position, transform.position);
-                if (distansToTarget > distansToNewTarget)
-                {
-                    target = other.gameObject;
-                }
-            }
+            aiCharacterController.SetTarget(transform);
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    public void SetPlayers()
     {
-        if(other.gameObject == target)
+        players = GameObject.FindGameObjectsWithTag("Player");
+        Debug.Log("Players: " + players);
+    }
+
+    private void SetTarget()
+    {
+        float ClosestDistans = ChaseRadius;
+        foreach (GameObject player in players)
+        {
+            float distansToPlayer = Vector3.Distance(player.transform.position, transform.position);
+            if(distansToPlayer <= ClosestDistans)
+            {
+                target = player;
+                ClosestDistans = distansToPlayer;  
+            }
+        }
+        if( ClosestDistans == ChaseRadius)
         {
             target = null;
         }
