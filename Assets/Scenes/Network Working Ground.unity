@@ -2213,7 +2213,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1199000699}
-  m_LocalRotation: {x: 0.53267515, y: 0.07034045, z: 0.83613265, w: -0.11041513}
+  m_LocalRotation: {x: 0.5326752, y: 0.070340455, z: 0.83613276, w: -0.110415146}
   m_LocalPosition: {x: 0.000022271464, y: -0.00006150465, z: 0.026027026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3206,6 +3206,8 @@ GameObject:
   - component: {fileID: 1746594737}
   - component: {fileID: 1746594736}
   - component: {fileID: 1746594735}
+  - component: {fileID: 1746594744}
+  - component: {fileID: 1746594743}
   m_Layer: 9
   m_Name: Minion
   m_TagString: Untagged
@@ -3356,6 +3358,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746594743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1746594734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 10
+  m_InterpolateRotation: 20
+  m_InterpolateMovement: 1
+--- !u!114 &1746594744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1746594734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 154
+    i1: 243
+    i2: 217
+    i3: 249
+    i4: 243
+    i5: 210
+    i6: 41
+    i7: 148
+    i8: 57
+    i9: 186
+    i10: 33
+    i11: 164
+    i12: 210
+    i13: 137
+    i14: 11
+    i15: 225
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1785475660
 GameObject:
   m_ObjectHideFlags: 0
@@ -3685,7 +3740,7 @@ MonoBehaviour:
   m_PlayerPrefab: {fileID: 1645247090730346, guid: 884732c97e26ff34ca848ff22090d861,
     type: 2}
   m_AutoCreatePlayer: 1
-  m_PlayerSpawnMethod: 0
+  m_PlayerSpawnMethod: 1
   m_OfflineScene: 
   m_OnlineScene: 
   m_SpawnPrefabs:

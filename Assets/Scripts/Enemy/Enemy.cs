@@ -1,6 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿#if UNITY_EDITOR
 using UnityEditor;
+#endif
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.AI;
@@ -20,11 +22,11 @@ public class Enemy : NetworkBehaviour, IDamageable {
     [SerializeField] Transform ProjectileSpownPoint;
     
 
-	private float currentHealth;
+	[SyncVar (hook = "OnChangeHealth")]private float currentHealth;
     private float nextAttackTime = 0;
 
 	private AICharacterControl aiCharacterController = null;
-	[SerializeField] private GameObject target = null;
+	[SyncVar (hook = "OnChangeTarget")][SerializeField] private GameObject target = null;
 
     private GameObject[] players;
 
@@ -44,6 +46,14 @@ public class Enemy : NetworkBehaviour, IDamageable {
             Destroy(gameObject);
         }
     }
+    void OnChangeHealth(float n)
+    {
+        currentHealth = n;
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Awake()
 	{
@@ -55,35 +65,38 @@ public class Enemy : NetworkBehaviour, IDamageable {
 		aiCharacterController = GetComponent<AICharacterControl> ();
         SetPlayers();
 
-        InvokeRepeating("SetTarget", 1, 0.2f);
+        InvokeRepeating("CmdSetTarget", 1, 0.2f);
 	}
 
 	void Update ()
     {
         SetPlayers();
-        if (target)
+        if (isServer)
         {
-            float distansToTarget = Vector3.Distance(target.transform.position, transform.position);
-            aiCharacterController.SetTarget(target.transform);
-            if (distansToTarget < AttackRange && Time.time >= nextAttackTime)
+            if (target)
             {
-                nextAttackTime = Time.time + secBetweenShot;
-                Attack();
+                float distansToTarget = Vector3.Distance(target.transform.position, transform.position);
+                aiCharacterController.SetTarget(target.transform);
+                if (distansToTarget < AttackRange && Time.time >= nextAttackTime)
+                {
+                    nextAttackTime = Time.time + secBetweenShot;
+                    Attack();
+                }
             }
-        }
-        else
-        {
-            aiCharacterController.SetTarget(transform);
+            else
+            {
+                aiCharacterController.SetTarget(transform);
+            }
         }
     }
 
     public void SetPlayers()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
-        Debug.Log("Players: " + players);
     }
 
-    private void SetTarget()
+    [Command]
+    private void CmdSetTarget()
     {
         float ClosestDistans = ChaseRadius;
         foreach (GameObject player in players)
@@ -92,13 +105,18 @@ public class Enemy : NetworkBehaviour, IDamageable {
             if(distansToPlayer <= ClosestDistans)
             {
                 target = player;
-                ClosestDistans = distansToPlayer;  
+                ClosestDistans = distansToPlayer;
             }
         }
         if( ClosestDistans == ChaseRadius)
         {
             target = null;
         }
+    }
+
+    void OnChangeTarget(GameObject g)
+    {
+        target = g;
     }
 
     void Attack()
@@ -111,6 +129,7 @@ public class Enemy : NetworkBehaviour, IDamageable {
 
     void OnDrawGizmos()
     {
+#if UNITY_EDITOR
         //drow chase circale
         Handles.color = Color.blue;
         Handles.DrawWireDisc(transform.position, Vector3.up, ChaseRadius);
@@ -118,5 +137,6 @@ public class Enemy : NetworkBehaviour, IDamageable {
         //drow attack circale
         Handles.color = Color.red;
         Handles.DrawWireDisc(transform.position, Vector3.up, AttackRange);
+#endif
     }
 }
