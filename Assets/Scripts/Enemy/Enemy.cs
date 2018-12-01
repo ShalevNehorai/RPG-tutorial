@@ -80,7 +80,7 @@ public class Enemy : NetworkBehaviour, IDamageable {
                 if (distansToTarget < AttackRange && Time.time >= nextAttackTime)
                 {
                     nextAttackTime = Time.time + secBetweenShot;
-                    Attack();
+                    CmdAttack();
                 }
             }
             else
@@ -119,7 +119,23 @@ public class Enemy : NetworkBehaviour, IDamageable {
         target = g;
     }
 
-    void Attack()
+    [Command]
+    void CmdAttack()
+    {
+        SpownProjectile();
+        RpcAttack();
+    }
+
+    [ClientRpc]
+    void RpcAttack()
+    {
+        if (!isServer)
+        {
+            SpownProjectile();
+        }
+    }
+
+    void SpownProjectile()
     {
         Projectile newProjectile = Instantiate(ProjectileToUse, ProjectileSpownPoint.position, Quaternion.identity).GetComponent<Projectile>();
         newProjectile.Damage = this.Damage;

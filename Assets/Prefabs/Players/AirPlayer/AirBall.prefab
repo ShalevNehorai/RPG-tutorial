@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 135757307362584324}
   - component: {fileID: 23648576681309602}
   - component: {fileID: 114157812761569794}
+  - component: {fileID: 114276970790312164}
+  - component: {fileID: 114106698927762096}
   m_Layer: 0
   m_Name: AirBall
   m_TagString: Untagged
@@ -84,6 +86,27 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215440644147900}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114106698927762096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215440644147900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
 --- !u!114 &114157812761569794
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -98,6 +121,38 @@ MonoBehaviour:
   Speed: 10
   Range: 10
   Damage: 50
+--- !u!114 &114276970790312164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215440644147900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 177
+    i1: 171
+    i2: 251
+    i3: 13
+    i4: 205
+    i5: 38
+    i6: 10
+    i7: 68
+    i8: 10
+    i9: 35
+    i10: 175
+    i11: 178
+    i12: 14
+    i13: 175
+    i14: 150
+    i15: 206
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!135 &135757307362584324
 SphereCollider:
   m_ObjectHideFlags: 1

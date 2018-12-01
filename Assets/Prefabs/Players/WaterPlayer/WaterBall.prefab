@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 135410415723633524}
   - component: {fileID: 23507842505439714}
   - component: {fileID: 114314093712927308}
+  - component: {fileID: 114043000355157232}
+  - component: {fileID: 114379329821869146}
   m_Layer: 0
   m_Name: WaterBall
   m_TagString: Untagged
@@ -84,6 +86,38 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1720395377114126}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114043000355157232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1720395377114126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 172
+    i1: 57
+    i2: 188
+    i3: 112
+    i4: 213
+    i5: 159
+    i6: 218
+    i7: 4
+    i8: 187
+    i9: 2
+    i10: 38
+    i11: 94
+    i12: 112
+    i13: 249
+    i14: 41
+    i15: 88
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114314093712927308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -99,6 +133,27 @@ MonoBehaviour:
   Range: 10
   Damage: 50
   HealPoints: 10
+--- !u!114 &114379329821869146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1720395377114126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
 --- !u!135 &135410415723633524
 SphereCollider:
   m_ObjectHideFlags: 1

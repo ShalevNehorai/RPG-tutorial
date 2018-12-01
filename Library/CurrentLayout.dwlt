@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 683, y: 342}
-  m_MaxSize: {x: 12008, y: 8042}
+  m_MinSize: {x: 508, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 52
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 968
     height: 635
-  m_MinSize: {x: 406, y: 342}
-  m_MaxSize: {x: 8006, y: 8042}
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 12
+  controlID: 106
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,14 +229,14 @@ MonoBehaviour:
     y: 351
     width: 968
     height: 284
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,15 +255,15 @@ MonoBehaviour:
     y: 0
     width: 398
     height: 635
-  m_MinSize: {x: 277, y: 71}
+  m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,8 +344,8 @@ MonoBehaviour:
     height: 330
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 982f0000
-    m_LastClickedID: 12184
+    m_SelectedIDs: 
+    m_LastClickedID: 0
     m_ExpandedIDs: a6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -396,14 +396,14 @@ MonoBehaviour:
     width: 673
     height: 330
   m_SceneLighting: 1
-  lastFramingTime: 47.514821923038234
+  lastFramingTime: 2573.8597770420197
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.9733567, y: 9.417136, z: 5.9446545}
+    m_Target: {x: 6.318028, y: 0.8315468, z: -4.85477}
     speed: 2
-    m_Value: {x: 5.9733567, y: 9.417136, z: 5.9446545}
+    m_Value: {x: 6.318028, y: 0.8315468, z: -4.85477}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -426,13 +426,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.15383428, y: 0.845496, z: -0.37941194, w: -0.34280926}
+    m_Target: {x: -0.41740373, y: 0.52131695, z: -0.32495332, w: -0.6696329}
     speed: 2
-    m_Value: {x: -0.15383428, y: 0.845496, z: -0.37941194, w: -0.34280926}
+    m_Value: {x: -0.41740376, y: 0.52131695, z: -0.32495332, w: -0.6696329}
   m_Size:
-    m_Target: 1.1431534
+    m_Target: 12.086949
     speed: 2
-    m_Value: 1.1431534
+    m_Value: 12.086949
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -604,19 +604,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Utility
+    - Assets/Prefabs/Players
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Utility
+  - Assets/Prefabs/Players
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\The4ElementsRPG
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 234}
-    m_SelectedIDs: d0280000
-    m_LastClickedID: 10448
-    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a0000422c00006a2c0000da2c00000a2e00000c2e0000562e0000942e0000d0340000d2340000d4340000d6340000d8340000da340000dc340000de340000e0340000
+    scrollPos: {x: 0, y: 122}
+    m_SelectedIDs: 422c0000
+    m_LastClickedID: 11330
+    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e0000a8330000aa330000ac330000ae330000b0330000b2330000b4330000b6330000b8330000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a0000422c00006a2c0000da2c00000a2e00000c2e0000562e0000942e0000d0340000d2340000d4340000d6340000d8340000da340000dc340000de340000e0340000
+    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e0000a8330000aa330000ac330000ae330000b0330000b2330000b4330000b6330000b8330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,9 +669,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c0300000
-    m_LastClickedInstanceID: 12480
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000046070000dc270000d8f300008c28000000000000a22b0000b02800009e2b0000c02800008e2b00009a2a0000e02c0000c60bfcff9c2a00004a2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -789,8 +789,8 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -962,9 +962,9 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
@@ -974,8 +974,27 @@ MonoBehaviour:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - Library
+        values:
+        - path: Library
+          label: Library
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1004,6 +1023,42 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: Library
+        label: Library
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\CurrentLayout.dwlt
+        label: CurrentLayout.dwlt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\CurrentLayout.dwlt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
       selectedNode:
         path: 
         label: 
@@ -1023,16 +1078,22 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: Library\CurrentLayout.dwlt
+      fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    changedFilesText: 1 changed file
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-11-29T06:01:53.006+02:00
+      updatedTimeString: 2018-11-30T20:55:58.900+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-11-29T06:02:16.485+02:00
+      updatedTimeString: 2018-11-30T20:55:53.222+02:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-11-29T06:01:53.145+02:00
+      updatedTimeString: 2018-11-30T20:55:58.936+02:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -16266,7 +16327,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/ShalevNehorai/RPG-tutorial.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   currentBranchContent:
     m_Text: master
     m_Image: {fileID: 0}
@@ -16276,13 +16337,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-10-29T16:29:34.422+02:00
+    updatedTimeString: 2018-11-30T20:55:58.900+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-10-29T16:29:34.544+02:00
+    updatedTimeString: 2018-11-30T20:55:52.027+02:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-10-29T16:29:34.470+02:00
+    updatedTimeString: 2018-11-30T20:55:53.222+02:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
