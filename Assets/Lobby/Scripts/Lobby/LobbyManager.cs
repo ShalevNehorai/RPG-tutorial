@@ -282,7 +282,8 @@ namespace Prototype.NetworkLobby
                 LobbyPlayer p = lobbySlots[i] as LobbyPlayer;
                 if (p != null)
                 {
-                    p.RpcUpdateRemoveButton(); p.ToggleJoinButton(numPlayers + 1 >= minPlayers);
+                    p.RpcUpdateRemoveButton();
+                    p.ToggleJoinButton(numPlayers + 1 >= minPlayers);
                 }
             }
             return obj;
@@ -303,7 +304,7 @@ namespace Prototype.NetworkLobby
         public override GameObject OnLobbyServerCreateGamePlayer(NetworkConnection conn, short playerControllerId)
         {
             int index = currentPlayers[conn.connectionId];
-            GameObject playerPrefab = (GameObject)GameObject.Instantiate(spawnPrefabs[index], 
+            GameObject playerPrefab = (GameObject)GameObject.Instantiate(spawnPrefabs[index],
                 GetNetworkStartPosition(conn.connectionId).transform.position, Quaternion.identity);
             return playerPrefab;
         }
@@ -423,13 +424,20 @@ namespace Prototype.NetworkLobby
         {
             List<NetworkStartPosition> startPositions = new List<NetworkStartPosition>();
             GameObject[] gameObjects = SceneManager.GetSceneByName(playScene).GetRootGameObjects();
-
+ 
             foreach (GameObject obj in gameObjects)
             {
                 NetworkStartPosition strPos = obj.GetComponent<NetworkStartPosition>();
                 if (strPos != null)
                 {
                     startPositions.Add(strPos);
+                }
+                else if (obj.name.Contains("4PlayersStartPositions"))
+                {
+                    foreach (NetworkStartPosition pos in obj.GetComponentsInChildren<NetworkStartPosition>(true))
+                    {
+                        startPositions.Add(pos);
+                    }
                 }
             }
             return startPositions[connectionId];

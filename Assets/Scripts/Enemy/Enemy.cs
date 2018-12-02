@@ -76,7 +76,10 @@ public class Enemy : NetworkBehaviour, IDamageable {
             if (target)
             {
                 float distansToTarget = Vector3.Distance(target.transform.position, transform.position);
-                aiCharacterController.SetTarget(target.transform);
+                if (distansToTarget < ChaseRadius)
+                {
+                    aiCharacterController.SetTarget(target.transform);
+                }
                 if (distansToTarget < AttackRange && Time.time >= nextAttackTime)
                 {
                     nextAttackTime = Time.time + secBetweenShot;
@@ -98,7 +101,7 @@ public class Enemy : NetworkBehaviour, IDamageable {
     [Command]
     private void CmdSetTarget()
     {
-        float ClosestDistans = ChaseRadius;
+        float ClosestDistans = Mathf.Max(ChaseRadius, AttackRange);
         foreach (GameObject player in players)
         {
             float distansToPlayer = Vector3.Distance(player.transform.position, transform.position);
@@ -108,7 +111,7 @@ public class Enemy : NetworkBehaviour, IDamageable {
                 ClosestDistans = distansToPlayer;
             }
         }
-        if( ClosestDistans == ChaseRadius)
+        if( ClosestDistans == Mathf.Max(ChaseRadius, AttackRange))
         {
             target = null;
         }

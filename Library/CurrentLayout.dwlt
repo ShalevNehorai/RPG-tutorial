@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 106
+  controlID: 28
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 13
+  controlID: 29
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,7 +346,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: a6fbffff00000000
+    m_ExpandedIDs: e8dbfdff50dcfdfff4ddfdff1c46feffda46feff7a48feff82fcfeff0efdfeffaefefeffa6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -401,9 +401,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.318028, y: 0.8315468, z: -4.85477}
+    m_Target: {x: 3.0747414, y: 3.039837, z: -5.284854}
     speed: 2
-    m_Value: {x: 6.318028, y: 0.8315468, z: -4.85477}
+    m_Value: {x: 3.0747414, y: 3.039837, z: -5.284854}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -426,9 +426,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.41740373, y: 0.52131695, z: -0.32495332, w: -0.6696329}
+    m_Target: {x: -0.28817824, y: 0.6170428, z: -0.2597176, w: -0.68465924}
     speed: 2
-    m_Value: {x: -0.41740376, y: 0.52131695, z: -0.32495332, w: -0.6696329}
+    m_Value: {x: -0.28817824, y: 0.6170428, z: -0.2597176, w: -0.68465924}
   m_Size:
     m_Target: 12.086949
     speed: 2
@@ -604,18 +604,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Players
+    - Assets/Scripts/Enemy
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Players
+  - Assets/Scripts/Enemy
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\The4ElementsRPG
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 122}
-    m_SelectedIDs: 422c0000
-    m_LastClickedID: 11330
+    scrollPos: {x: 0, y: 242}
+    m_SelectedIDs: c2290000
+    m_LastClickedID: 10690
     m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e0000a8330000aa330000ac330000ae330000b0330000b2330000b4330000b6330000b8330000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -754,7 +754,7 @@ MonoBehaviour:
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
-    m_CachedPref: -112
+    m_CachedPref: -100
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -783,7 +783,7 @@ MonoBehaviour:
     y: 92
     width: 396
     height: 614
-  progressMessageClearTime: -1
+  progressMessageClearTime: 2517.994485782375
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
@@ -974,27 +974,8 @@ MonoBehaviour:
         keys: []
         values: []
       folders:
-        keys:
-        - Library
-        values:
-        - path: Library
-          label: Library
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -1023,42 +1004,6 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Library
-        label: Library
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\CurrentLayout.dwlt
-        label: CurrentLayout.dwlt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\CurrentLayout.dwlt
-          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
-          projectPath: Library\CurrentLayout.dwlt
-          originalPath: 
-          status: 3
-          staged: 0
       selectedNode:
         path: 
         label: 
@@ -1078,22 +1023,16 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-    gitStatusEntries:
-    - path: Library\CurrentLayout.dwlt
-      fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
-      projectPath: Library\CurrentLayout.dwlt
-      originalPath: 
-      status: 3
-      staged: 0
-    changedFilesText: 1 changed file
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-11-30T20:55:58.900+02:00
+      updatedTimeString: 2018-12-01T18:27:13.697+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-11-30T20:55:53.222+02:00
+      updatedTimeString: 2018-12-01T18:27:01.288+02:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-11-30T20:55:58.936+02:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -16327,7 +16266,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/ShalevNehorai/RPG-tutorial.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   currentBranchContent:
     m_Text: master
     m_Image: {fileID: 0}
@@ -16337,13 +16276,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-11-30T20:55:58.900+02:00
+    updatedTimeString: 2018-12-01T18:27:13.697+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-11-30T20:55:52.027+02:00
+    updatedTimeString: 2018-12-01T18:27:13.351+02:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-11-30T20:55:53.222+02:00
+    updatedTimeString: 2018-12-01T18:27:01.288+02:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -16361,7 +16300,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Loading the history...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialization failed
