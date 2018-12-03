@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -106,7 +106,7 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 508, y: 492}
+  m_MinSize: {x: 506, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 968
     height: 635
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 28
+  controlID: 106
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 968
     height: 351
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 29
+  controlID: 13
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 291
     height: 351
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 398
     height: 635
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 20}
@@ -346,7 +346,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e8dbfdff50dcfdfff4ddfdff1c46feffda46feff7a48feff82fcfeff0efdfeffaefefeffa6fbffff00000000
+    m_ExpandedIDs: 9af8f3ff24f9f3ffee00f4fffa00f4ff9604f4ff4c11f4fff629f4ff662af4ff6032f4ff6832f4ff344df4ffda54f4ffc080f4fffa68f5ff1c6ff5ff0a7af5ffba86f5ffe2b1f5ff72b2f5ff3ebaf5ff4cbaf5ff1a34f8ffea41f8ff0657f8ff8c57f8ff565ff8ff625ff8ff3263f8ff706cf8ffe689f8ffca90f8ffa69df8ff2caaf8ff06abf8ff7eacf8ffe2aef8ffdeddf8ff70def8ff10e0f8ff5a0afcff2c67fcffba67fcff5a69fcff0a6bfdff94e2fdff20e3fdffc0e4fdffd00afeff5c0bfefffc0cfeff1c6cffffa06cffff406effff30d4ffffbed4ffff62d6ffffa6fbffff000000005e620000f2fd0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +365,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - Network Working Ground
+  - Lobby
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -401,9 +401,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.0747414, y: 3.039837, z: -5.284854}
+    m_Target: {x: 3.492022, y: 3.2078056, z: 0.37940472}
     speed: 2
-    m_Value: {x: 3.0747414, y: 3.039837, z: -5.284854}
+    m_Value: {x: 3.492022, y: 3.2078056, z: 0.37940472}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -428,11 +428,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.28817824, y: 0.6170428, z: -0.2597176, w: -0.68465924}
     speed: 2
-    m_Value: {x: -0.28817824, y: 0.6170428, z: -0.2597176, w: -0.68465924}
+    m_Value: {x: -0.28817824, y: 0.6170428, z: -0.2597176, w: -0.6846593}
   m_Size:
-    m_Target: 12.086949
+    m_Target: 6.042941
     speed: 2
-    m_Value: 12.086949
+    m_Value: 6.042941
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -604,19 +604,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Enemy
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Enemy
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\The4ElementsRPG
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 242}
-    m_SelectedIDs: c2290000
-    m_LastClickedID: 10690
-    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e0000a8330000aa330000ac330000ae330000b0330000b2330000b4330000b6330000b8330000ffffff7f
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: da2c0000
+    m_LastClickedID: 11482
+    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a00004c2b0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e0000b0330000b2330000b4330000b6330000b8330000ba330000bc330000be330000c0330000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e0000a8330000aa330000ac330000ae330000b0330000b2330000b4330000b6330000b8330000
+    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e0000b0330000b2330000b4330000b6330000b8330000ba330000bc330000be330000c0330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,8 +671,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000046070000dc270000d8f300008c28000000000000a22b0000b02800009e2b0000c02800008e2b00009a2a0000e02c0000c60bfcff9c2a00004a2c0000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000046070000dc270000d8f300008c28000000000000a22b0000b02800009e2b0000c02800008e2b00009a2a0000e02c0000c60bfcff9c2a00004a2c0000442d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -783,7 +783,7 @@ MonoBehaviour:
     y: 92
     width: 396
     height: 614
-  progressMessageClearTime: 2517.994485782375
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
@@ -791,8 +791,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
+  changeTab: 5
+  activeTab: 5
   initProjectView:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
@@ -939,10 +939,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2018-10-12T16:38:26.617+03:00
+      updatedTimeString: 2018-12-02T20:00:03.602+02:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2018-10-12T16:14:35.038+03:00
+      updatedTimeString: 2018-12-02T20:00:03.742+02:00
       cacheType: 1
     currentBranch:
       name: master
@@ -1026,20 +1026,761 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-12-01T18:27:13.697+02:00
+      updatedTimeString: 2018-12-02T20:00:03.742+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-12-01T18:27:01.288+02:00
+      updatedTimeString: 2018-12-02T19:59:39.512+02:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-12-02T19:59:10.022+02:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     historyControl:
-      scroll: {x: 0, y: 0}
+      scroll: {x: 0, y: 120}
       entries:
+      - commitID: 528dcc94f5913c0a113654fd63ba13fbbe832535
+        mergeA: 
+        mergeB: 
+        authorName: Shalev Nehorai
+        authorEmail: shalev336n@gmail.com
+        commitEmail: shalev336n@gmail.com
+        commitName: Shalev Nehorai
+        summary: all enemies working on net
+        description: all enemies working on net
+        timeString: 2018-12-02T19:59:37.000+02:00
+        commitTimeString: 2018-12-02T19:59:37.000+02:00
+        changes:
+        - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Prefabs\Enemies\Archar.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Archar.prefab
+          projectPath: Assets\Prefabs\Enemies\Archar.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Prefabs\Enemies\Bruiser.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Bruiser.prefab
+          projectPath: Assets\Prefabs\Enemies\Bruiser.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Prefabs\Enemies\Enemy.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Enemy.prefab
+          projectPath: Assets\Prefabs\Enemies\Enemy.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Lobby.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+          projectPath: Assets\Scenes\Lobby.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Network Working Ground.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground.unity
+          projectPath: Assets\Scenes\Network Working Ground.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Enemy\Enemy.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+          projectPath: Assets\Scripts\Enemy\Enemy.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\EditorUserBuildSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\EditorUserBuildSettings.asset
+          projectPath: Library\EditorUserBuildSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - commitID: b5ca2636f52b3796b77537f103a48fc9bf8d32fc
+        mergeA: 
+        mergeB: 
+        authorName: Shalev Nehorai
+        authorEmail: shalev336n@gmail.com
+        commitEmail: shalev336n@gmail.com
+        commitName: Shalev Nehorai
+        summary: minion Attack over Net
+        description: minion Attack over Net
+        timeString: 2018-12-01T18:26:59.000+02:00
+        commitTimeString: 2018-12-01T18:26:59.000+02:00
+        changes:
+        - path: "Projectile.prefab\tAssets\\Prefabs\\Enemies\\Fast Projectile.prefab"
+          fullPath: "D:\\Unity Projects\\The4ElementsRPG\\Projectile.prefab\tAssets\\Prefabs\\Enemies\\Fast
+            Projectile.prefab"
+          projectPath: "Projectile.prefab\tAssets\\Prefabs\\Enemies\\Fast Projectile.prefab"
+          originalPath: Assets\Prefabs\Fast
+          status: 6
+          staged: 0
+        - path: "Projectile.prefab.meta\tAssets\\Prefabs\\Enemies\\Fast Projectile.prefab.meta"
+          fullPath: "D:\\Unity Projects\\The4ElementsRPG\\Projectile.prefab.meta\tAssets\\Prefabs\\Enemies\\Fast
+            Projectile.prefab.meta"
+          projectPath: "Projectile.prefab.meta\tAssets\\Prefabs\\Enemies\\Fast Projectile.prefab.meta"
+          originalPath: Assets\Prefabs\Fast
+          status: 6
+          staged: 0
+        - path: Assets\Prefabs\Enemies\Minion.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Minion.prefab
+          projectPath: Assets\Prefabs\Enemies\Minion.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Prefabs\Enemies\Projectile.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Projectile.prefab
+          projectPath: Assets\Prefabs\Enemies\Projectile.prefab
+          originalPath: Assets\Prefabs\Projectile.prefab
+          status: 6
+          staged: 0
+        - path: Assets\Prefabs\Enemies\Projectile.prefab.meta
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Projectile.prefab.meta
+          projectPath: Assets\Prefabs\Enemies\Projectile.prefab.meta
+          originalPath: Assets\Prefabs\Projectile.prefab.meta
+          status: 6
+          staged: 0
+        - path: Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+          projectPath: Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Prefabs\Players\AirPlayer\AirBall.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\AirPlayer\AirBall.prefab
+          projectPath: Assets\Prefabs\Players\AirPlayer\AirBall.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Prefabs\Players\WaterPlayer\WaterBall.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\WaterPlayer\WaterBall.prefab
+          projectPath: Assets\Prefabs\Players\WaterPlayer\WaterBall.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Enemy\Enemy.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+          projectPath: Assets\Scripts\Enemy\Enemy.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Enemy\Projectile.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Projectile.cs
+          projectPath: Assets\Scripts\Enemy\Projectile.cs
+          originalPath: Assets\Scripts\Projectile.cs
+          status: 6
+          staged: 0
+        - path: Assets\Scripts\Enemy\Projectile.cs.meta
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Projectile.cs.meta
+          projectPath: Assets\Scripts\Enemy\Projectile.cs.meta
+          originalPath: Assets\Scripts\Projectile.cs.meta
+          status: 6
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+      - commitID: de3ca778ad03d4de32a5bf7e16bd11d60e1959f0
+        mergeA: 
+        mergeB: 
+        authorName: Shalev Nehorai
+        authorEmail: shalev336n@gmail.com
+        commitEmail: shalev336n@gmail.com
+        commitName: Shalev Nehorai
+        summary: add 4 players start pos prefab
+        description: add 4 players start pos prefab
+        timeString: 2018-11-30T20:54:32.000+02:00
+        commitTimeString: 2018-11-30T20:54:32.000+02:00
+        changes:
+        - path: Assets\Prefabs\Players\4PlayersStartPositions.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\4PlayersStartPositions.prefab
+          projectPath: Assets\Prefabs\Players\4PlayersStartPositions.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+          projectPath: Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scenes\Network Working Ground.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground.unity
+          projectPath: Assets\Scenes\Network Working Ground.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - commitID: a556885c4bec65556a3453b9e49f219969d9f8e9
+        mergeA: 
+        mergeB: 
+        authorName: Shalev Nehorai
+        authorEmail: shalev336n@gmail.com
+        commitEmail: shalev336n@gmail.com
+        commitName: Shalev Nehorai
+        summary: enemy minion working on network
+        description: enemy minion working on network
+        timeString: 2018-11-30T20:46:55.000+02:00
+        commitTimeString: 2018-11-30T20:46:55.000+02:00
+        changes:
+        - path: Assets\Prefabs\Enemies\Minion.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Minion.prefab
+          projectPath: Assets\Prefabs\Enemies\Minion.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Network Working Ground.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground.unity
+          projectPath: Assets\Scenes\Network Working Ground.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Enemy\Enemy.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+          projectPath: Assets\Scripts\Enemy\Enemy.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\EditorUserBuildSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\EditorUserBuildSettings.asset
+          projectPath: Library\EditorUserBuildSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - commitID: 4e9d684491199cb4ce2607b91bd2bc41a62e9f77
+        mergeA: 
+        mergeB: 
+        authorName: Shalev Nehorai
+        authorEmail: shalev336n@gmail.com
+        commitEmail: shalev336n@gmail.com
+        commitName: Shalev Nehorai
+        summary: enemy chase and attack player
+        description: enemy chase and attack player
+        timeString: 2018-10-29T16:23:33.000+02:00
+        commitTimeString: 2018-10-29T16:23:33.000+02:00
+        changes:
+        - path: Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+          projectPath: Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Network Working Ground.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground.unity
+          projectPath: Assets\Scenes\Network Working Ground.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Attacks\RangeProjectile.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Attacks\RangeProjectile.cs
+          projectPath: Assets\Scripts\Attacks\RangeProjectile.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Enemy\Enemy.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+          projectPath: Assets\Scripts\Enemy\Enemy.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\LastSceneManagerSetup.txt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
+          projectPath: Library\LastSceneManagerSetup.txt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+      - commitID: fc4f49f7ad821ba211faece4d848ea090d293a55
+        mergeA: 
+        mergeB: 
+        authorName: Shalev Nehorai
+        authorEmail: 35132986+ShalevNehorai@users.noreply.github.com
+        commitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+        commitName: Shalev Nehorai
+        summary: start implementing enemies
+        description: start implementing enemies
+        timeString: 2018-10-20T09:38:41.000+03:00
+        commitTimeString: 2018-10-20T09:38:41.000+03:00
+        changes:
+        - path: Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+          projectPath: Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Prefabs\Players\FirePlayer\FireHero.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\FirePlayer\FireHero.prefab
+          projectPath: Assets\Prefabs\Players\FirePlayer\FireHero.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Lobby.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+          projectPath: Assets\Scenes\Lobby.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Network Working Ground.meta
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground.meta
+          projectPath: Assets\Scenes\Network Working Ground.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scenes\Network Working Ground.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground.unity
+          projectPath: Assets\Scenes\Network Working Ground.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Network Working Ground\NavMesh.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground\NavMesh.asset
+          projectPath: Assets\Scenes\Network Working Ground\NavMesh.asset
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scenes\Network Working Ground\NavMesh.asset.meta
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground\NavMesh.asset.meta
+          projectPath: Assets\Scenes\Network Working Ground\NavMesh.asset.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scenes\combat sendbox\combat sendbox.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\combat sendbox\combat
+            sendbox.unity
+          projectPath: Assets\Scenes\combat sendbox\combat sendbox.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\combat sendbox\combat sendbox\NavMesh.asset.meta
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\combat sendbox\combat
+            sendbox\NavMesh.asset.meta
+          projectPath: Assets\Scenes\combat sendbox\combat sendbox\NavMesh.asset.meta
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Attacks\RangeProjectile.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Attacks\RangeProjectile.cs
+          projectPath: Assets\Scripts\Attacks\RangeProjectile.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Enemy\Enemy.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+          projectPath: Assets\Scripts\Enemy\Enemy.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Projectile.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Projectile.cs
+          projectPath: Assets\Scripts\Projectile.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\AnnotationManager
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\AnnotationManager
+          projectPath: Library\AnnotationManager
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: The4Elements.zip
+          fullPath: D:\Unity Projects\The4ElementsRPG\The4Elements.zip
+          projectPath: The4Elements.zip
+          originalPath: 
+          status: 4
+          staged: 0
+      - commitID: 3090bf839482110ac6a5b624e4100834f4ec2d67
+        mergeA: 
+        mergeB: 
+        authorName: Shalev Nehorai
+        authorEmail: 35132986+ShalevNehorai@users.noreply.github.com
+        commitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+        commitName: Shalev Nehorai
+        summary: SA spown position bug fix
+        description: "SA spown position bug fix\r\n\r\nbetter bug fix of the bug wheres
+          the player wont spawn when the SA is the server"
+        timeString: 2018-10-13T10:34:20.000+03:00
+        commitTimeString: 2018-10-13T10:34:20.000+03:00
+        changes:
+        - path: Assets\Lobby\Prefabs\PlayerInfo.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Prefabs\PlayerInfo.prefab
+          projectPath: Assets\Lobby\Prefabs\PlayerInfo.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          projectPath: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Network Working Ground.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+            Ground.unity
+          projectPath: Assets\Scenes\Network Working Ground.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+      - commitID: 6ced4fb7525b79362c5206cc6d47c72fe6c8925d
+        mergeA: 
+        mergeB: 
+        authorName: Shalev Nehorai
+        authorEmail: 35132986+ShalevNehorai@users.noreply.github.com
+        commitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+        commitName: Shalev Nehorai
+        summary: SA player spawn bugfix
+        description: "SA player spawn bugfix\r\n\r\nfixed a bug wheres when the SA
+          is the game server the player prefab wont spawn"
+        timeString: 2018-10-13T00:59:56.000+03:00
+        commitTimeString: 2018-10-13T00:59:56.000+03:00
+        changes:
+        - path: Assets\Lobby\Prefabs\PlayerInfo.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Prefabs\PlayerInfo.prefab
+          projectPath: Assets\Lobby\Prefabs\PlayerInfo.prefab
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          projectPath: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Lobby.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+          projectPath: Assets\Scenes\Lobby.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Player\PlayerHealth.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\PlayerHealth.cs
+          projectPath: Assets\Scripts\Player\PlayerHealth.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\LastSceneManagerSetup.txt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
+          projectPath: Library\LastSceneManagerSetup.txt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ProjectSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ProjectSettings.asset
+          projectPath: Library\ProjectSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - commitID: eabdedffaea8e87f7301ca32815453e6cc97a132
+        mergeA: 
+        mergeB: 
+        authorName: Shalev Nehorai
+        authorEmail: 35132986+ShalevNehorai@users.noreply.github.com
+        commitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+        commitName: Shalev Nehorai
+        summary: lobby character select update
+        description: lobby character select update
+        timeString: 2018-10-12T17:07:26.000+03:00
+        commitTimeString: 2018-10-12T17:07:26.000+03:00
+        changes:
+        - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          projectPath: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scenes\Lobby.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+          projectPath: Assets\Scenes\Lobby.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\MyLobbyHook.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\MyLobbyHook.cs
+          projectPath: Assets\Scripts\MyLobbyHook.cs
+          originalPath: 
+          status: 5
+          staged: 0
+        - path: Assets\Scripts\MyLobbyHook.cs.meta
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\MyLobbyHook.cs.meta
+          projectPath: Assets\Scripts\MyLobbyHook.cs.meta
+          originalPath: 
+          status: 5
+          staged: 0
+        - path: Assets\Scripts\Player\SetupLocalPlayer.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\SetupLocalPlayer.cs
+          projectPath: Assets\Scripts\Player\SetupLocalPlayer.cs
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
       - commitID: de21d419f932ae5ad28ccfece776391f08a3a737
         mergeA: 
         mergeB: 
@@ -8336,30 +9077,141 @@ MonoBehaviour:
           originalPath: 
           status: 4
           staged: 0
-      statusAhead: 1
-      selectedIndex: 2
+      statusAhead: 0
+      selectedIndex: 7
     selectedEntry:
-      commitID: d2767f693687a09bed6f468d2e1aa5a0c8d57fa7
+      commitID: 6ced4fb7525b79362c5206cc6d47c72fe6c8925d
       mergeA: 
       mergeB: 
       authorName: Shalev Nehorai
       authorEmail: 35132986+ShalevNehorai@users.noreply.github.com
       commitEmail: 35132986+ShalevNehorai@users.noreply.github.com
       commitName: Shalev Nehorai
-      summary: character picker
-      description: character picker
-      timeString: 2018-09-15T08:02:55.000+03:00
-      commitTimeString: 2018-09-15T08:02:55.000+03:00
+      summary: SA player spawn bugfix
+      description: "SA player spawn bugfix\r\n\r\nfixed a bug wheres when the SA is
+        the game server the player prefab wont spawn"
+      timeString: 2018-10-13T00:59:56.000+03:00
+      commitTimeString: 2018-10-13T00:59:56.000+03:00
       changes:
-      - path: Assets\Prefabs\Players\EarthPlayer\EarthHero.prefab
-        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\EarthPlayer\EarthHero.prefab
-        projectPath: Assets\Prefabs\Players\EarthPlayer\EarthHero.prefab
+      - path: Assets\Lobby\Prefabs\PlayerInfo.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Prefabs\PlayerInfo.prefab
+        projectPath: Assets\Lobby\Prefabs\PlayerInfo.prefab
         originalPath: 
         status: 3
         staged: 0
-      - path: Assets\Prefabs\Players\WaterPlayer\WaterHero.prefab
-        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\WaterPlayer\WaterHero.prefab
-        projectPath: Assets\Prefabs\Players\WaterPlayer\WaterHero.prefab
+      - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        projectPath: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Lobby.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+        projectPath: Assets\Scenes\Lobby.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Player\PlayerHealth.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\PlayerHealth.cs
+        projectPath: Assets\Scripts\Player\PlayerHealth.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\LastSceneManagerSetup.txt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
+        projectPath: Library\LastSceneManagerSetup.txt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ProjectSettings.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ProjectSettings.asset
+        projectPath: Library\ProjectSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
+    detailsScroll: {x: 0, y: 180}
+    logEntries:
+    - commitID: 528dcc94f5913c0a113654fd63ba13fbbe832535
+      mergeA: 
+      mergeB: 
+      authorName: Shalev Nehorai
+      authorEmail: shalev336n@gmail.com
+      commitEmail: shalev336n@gmail.com
+      commitName: Shalev Nehorai
+      summary: all enemies working on net
+      description: all enemies working on net
+      timeString: 2018-12-02T19:59:37.000+02:00
+      commitTimeString: 2018-12-02T19:59:37.000+02:00
+      changes:
+      - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Prefabs\Enemies\Archar.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Archar.prefab
+        projectPath: Assets\Prefabs\Enemies\Archar.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Prefabs\Enemies\Bruiser.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Bruiser.prefab
+        projectPath: Assets\Prefabs\Enemies\Bruiser.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Prefabs\Enemies\Enemy.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Enemy.prefab
+        projectPath: Assets\Prefabs\Enemies\Enemy.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Lobby.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+        projectPath: Assets\Scenes\Lobby.unity
         originalPath: 
         status: 3
         staged: 0
@@ -8370,26 +9222,698 @@ MonoBehaviour:
         originalPath: 
         status: 3
         staged: 0
+      - path: Assets\Scripts\Enemy\Enemy.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+        projectPath: Assets\Scripts\Enemy\Enemy.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\EditorUserBuildSettings.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\EditorUserBuildSettings.asset
+        projectPath: Library\EditorUserBuildSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
+    - commitID: b5ca2636f52b3796b77537f103a48fc9bf8d32fc
+      mergeA: 
+      mergeB: 
+      authorName: Shalev Nehorai
+      authorEmail: shalev336n@gmail.com
+      commitEmail: shalev336n@gmail.com
+      commitName: Shalev Nehorai
+      summary: minion Attack over Net
+      description: minion Attack over Net
+      timeString: 2018-12-01T18:26:59.000+02:00
+      commitTimeString: 2018-12-01T18:26:59.000+02:00
+      changes:
+      - path: "Projectile.prefab\tAssets\\Prefabs\\Enemies\\Fast Projectile.prefab"
+        fullPath: "D:\\Unity Projects\\The4ElementsRPG\\Projectile.prefab\tAssets\\Prefabs\\Enemies\\Fast
+          Projectile.prefab"
+        projectPath: "Projectile.prefab\tAssets\\Prefabs\\Enemies\\Fast Projectile.prefab"
+        originalPath: Assets\Prefabs\Fast
+        status: 6
+        staged: 0
+      - path: "Projectile.prefab.meta\tAssets\\Prefabs\\Enemies\\Fast Projectile.prefab.meta"
+        fullPath: "D:\\Unity Projects\\The4ElementsRPG\\Projectile.prefab.meta\tAssets\\Prefabs\\Enemies\\Fast
+          Projectile.prefab.meta"
+        projectPath: "Projectile.prefab.meta\tAssets\\Prefabs\\Enemies\\Fast Projectile.prefab.meta"
+        originalPath: Assets\Prefabs\Fast
+        status: 6
+        staged: 0
+      - path: Assets\Prefabs\Enemies\Minion.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Minion.prefab
+        projectPath: Assets\Prefabs\Enemies\Minion.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Prefabs\Enemies\Projectile.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Projectile.prefab
+        projectPath: Assets\Prefabs\Enemies\Projectile.prefab
+        originalPath: Assets\Prefabs\Projectile.prefab
+        status: 6
+        staged: 0
+      - path: Assets\Prefabs\Enemies\Projectile.prefab.meta
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Projectile.prefab.meta
+        projectPath: Assets\Prefabs\Enemies\Projectile.prefab.meta
+        originalPath: Assets\Prefabs\Projectile.prefab.meta
+        status: 6
+        staged: 0
+      - path: Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+        projectPath: Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Prefabs\Players\AirPlayer\AirBall.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\AirPlayer\AirBall.prefab
+        projectPath: Assets\Prefabs\Players\AirPlayer\AirBall.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Prefabs\Players\WaterPlayer\WaterBall.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\WaterPlayer\WaterBall.prefab
+        projectPath: Assets\Prefabs\Players\WaterPlayer\WaterBall.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Enemy\Enemy.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+        projectPath: Assets\Scripts\Enemy\Enemy.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Enemy\Projectile.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Projectile.cs
+        projectPath: Assets\Scripts\Enemy\Projectile.cs
+        originalPath: Assets\Scripts\Projectile.cs
+        status: 6
+        staged: 0
+      - path: Assets\Scripts\Enemy\Projectile.cs.meta
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Projectile.cs.meta
+        projectPath: Assets\Scripts\Enemy\Projectile.cs.meta
+        originalPath: Assets\Scripts\Projectile.cs.meta
+        status: 6
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+    - commitID: de3ca778ad03d4de32a5bf7e16bd11d60e1959f0
+      mergeA: 
+      mergeB: 
+      authorName: Shalev Nehorai
+      authorEmail: shalev336n@gmail.com
+      commitEmail: shalev336n@gmail.com
+      commitName: Shalev Nehorai
+      summary: add 4 players start pos prefab
+      description: add 4 players start pos prefab
+      timeString: 2018-11-30T20:54:32.000+02:00
+      commitTimeString: 2018-11-30T20:54:32.000+02:00
+      changes:
+      - path: Assets\Prefabs\Players\4PlayersStartPositions.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\4PlayersStartPositions.prefab
+        projectPath: Assets\Prefabs\Players\4PlayersStartPositions.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+        projectPath: Assets\Prefabs\Players\4PlayersStartPositions.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scenes\Network Working Ground.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+          Ground.unity
+        projectPath: Assets\Scenes\Network Working Ground.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+    - commitID: a556885c4bec65556a3453b9e49f219969d9f8e9
+      mergeA: 
+      mergeB: 
+      authorName: Shalev Nehorai
+      authorEmail: shalev336n@gmail.com
+      commitEmail: shalev336n@gmail.com
+      commitName: Shalev Nehorai
+      summary: enemy minion working on network
+      description: enemy minion working on network
+      timeString: 2018-11-30T20:46:55.000+02:00
+      commitTimeString: 2018-11-30T20:46:55.000+02:00
+      changes:
+      - path: Assets\Prefabs\Enemies\Minion.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Enemies\Minion.prefab
+        projectPath: Assets\Prefabs\Enemies\Minion.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Network Working Ground.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+          Ground.unity
+        projectPath: Assets\Scenes\Network Working Ground.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Enemy\Enemy.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+        projectPath: Assets\Scripts\Enemy\Enemy.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\EditorUserBuildSettings.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\EditorUserBuildSettings.asset
+        projectPath: Library\EditorUserBuildSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
+    - commitID: 4e9d684491199cb4ce2607b91bd2bc41a62e9f77
+      mergeA: 
+      mergeB: 
+      authorName: Shalev Nehorai
+      authorEmail: shalev336n@gmail.com
+      commitEmail: shalev336n@gmail.com
+      commitName: Shalev Nehorai
+      summary: enemy chase and attack player
+      description: enemy chase and attack player
+      timeString: 2018-10-29T16:23:33.000+02:00
+      commitTimeString: 2018-10-29T16:23:33.000+02:00
+      changes:
+      - path: Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+        projectPath: Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Network Working Ground.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+          Ground.unity
+        projectPath: Assets\Scenes\Network Working Ground.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Attacks\RangeProjectile.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Attacks\RangeProjectile.cs
+        projectPath: Assets\Scripts\Attacks\RangeProjectile.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Enemy\Enemy.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+        projectPath: Assets\Scripts\Enemy\Enemy.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\LastSceneManagerSetup.txt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
+        projectPath: Library\LastSceneManagerSetup.txt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+    - commitID: fc4f49f7ad821ba211faece4d848ea090d293a55
+      mergeA: 
+      mergeB: 
+      authorName: Shalev Nehorai
+      authorEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      commitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      commitName: Shalev Nehorai
+      summary: start implementing enemies
+      description: start implementing enemies
+      timeString: 2018-10-20T09:38:41.000+03:00
+      commitTimeString: 2018-10-20T09:38:41.000+03:00
+      changes:
+      - path: Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+        projectPath: Assets\Prefabs\Players\FirePlayer\FireBall.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Prefabs\Players\FirePlayer\FireHero.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\FirePlayer\FireHero.prefab
+        projectPath: Assets\Prefabs\Players\FirePlayer\FireHero.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Lobby.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+        projectPath: Assets\Scenes\Lobby.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Network Working Ground.meta
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+          Ground.meta
+        projectPath: Assets\Scenes\Network Working Ground.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scenes\Network Working Ground.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+          Ground.unity
+        projectPath: Assets\Scenes\Network Working Ground.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Network Working Ground\NavMesh.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+          Ground\NavMesh.asset
+        projectPath: Assets\Scenes\Network Working Ground\NavMesh.asset
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scenes\Network Working Ground\NavMesh.asset.meta
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+          Ground\NavMesh.asset.meta
+        projectPath: Assets\Scenes\Network Working Ground\NavMesh.asset.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scenes\combat sendbox\combat sendbox.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\combat sendbox\combat
+          sendbox.unity
+        projectPath: Assets\Scenes\combat sendbox\combat sendbox.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\combat sendbox\combat sendbox\NavMesh.asset.meta
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\combat sendbox\combat
+          sendbox\NavMesh.asset.meta
+        projectPath: Assets\Scenes\combat sendbox\combat sendbox\NavMesh.asset.meta
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Attacks\RangeProjectile.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Attacks\RangeProjectile.cs
+        projectPath: Assets\Scripts\Attacks\RangeProjectile.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Enemy\Enemy.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Enemy\Enemy.cs
+        projectPath: Assets\Scripts\Enemy\Enemy.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Projectile.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Projectile.cs
+        projectPath: Assets\Scripts\Projectile.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\AnnotationManager
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\AnnotationManager
+        projectPath: Library\AnnotationManager
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: The4Elements.zip
+        fullPath: D:\Unity Projects\The4ElementsRPG\The4Elements.zip
+        projectPath: The4Elements.zip
+        originalPath: 
+        status: 4
+        staged: 0
+    - commitID: 3090bf839482110ac6a5b624e4100834f4ec2d67
+      mergeA: 
+      mergeB: 
+      authorName: Shalev Nehorai
+      authorEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      commitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      commitName: Shalev Nehorai
+      summary: SA spown position bug fix
+      description: "SA spown position bug fix\r\n\r\nbetter bug fix of the bug wheres
+        the player wont spawn when the SA is the server"
+      timeString: 2018-10-13T10:34:20.000+03:00
+      commitTimeString: 2018-10-13T10:34:20.000+03:00
+      changes:
+      - path: Assets\Lobby\Prefabs\PlayerInfo.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Prefabs\PlayerInfo.prefab
+        projectPath: Assets\Lobby\Prefabs\PlayerInfo.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        projectPath: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Network Working Ground.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
+          Ground.unity
+        projectPath: Assets\Scenes\Network Working Ground.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+    - commitID: 6ced4fb7525b79362c5206cc6d47c72fe6c8925d
+      mergeA: 
+      mergeB: 
+      authorName: Shalev Nehorai
+      authorEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      commitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      commitName: Shalev Nehorai
+      summary: SA player spawn bugfix
+      description: "SA player spawn bugfix\r\n\r\nfixed a bug wheres when the SA is
+        the game server the player prefab wont spawn"
+      timeString: 2018-10-13T00:59:56.000+03:00
+      commitTimeString: 2018-10-13T00:59:56.000+03:00
+      changes:
+      - path: Assets\Lobby\Prefabs\PlayerInfo.prefab
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Prefabs\PlayerInfo.prefab
+        projectPath: Assets\Lobby\Prefabs\PlayerInfo.prefab
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        projectPath: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Lobby.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+        projectPath: Assets\Scenes\Lobby.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Player\PlayerHealth.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\PlayerHealth.cs
+        projectPath: Assets\Scripts\Player\PlayerHealth.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\LastSceneManagerSetup.txt
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
+        projectPath: Library\LastSceneManagerSetup.txt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ProjectSettings.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ProjectSettings.asset
+        projectPath: Library\ProjectSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
+    - commitID: eabdedffaea8e87f7301ca32815453e6cc97a132
+      mergeA: 
+      mergeB: 
+      authorName: Shalev Nehorai
+      authorEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      commitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      commitName: Shalev Nehorai
+      summary: lobby character select update
+      description: lobby character select update
+      timeString: 2018-10-12T17:07:26.000+03:00
+      commitTimeString: 2018-10-12T17:07:26.000+03:00
+      changes:
+      - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        projectPath: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scenes\Lobby.unity
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+        projectPath: Assets\Scenes\Lobby.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\MyLobbyHook.cs
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\MyLobbyHook.cs
+        projectPath: Assets\Scripts\MyLobbyHook.cs
+        originalPath: 
+        status: 5
+        staged: 0
+      - path: Assets\Scripts\MyLobbyHook.cs.meta
+        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\MyLobbyHook.cs.meta
+        projectPath: Assets\Scripts\MyLobbyHook.cs.meta
+        originalPath: 
+        status: 5
+        staged: 0
       - path: Assets\Scripts\Player\SetupLocalPlayer.cs
         fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\SetupLocalPlayer.cs
         projectPath: Assets\Scripts\Player\SetupLocalPlayer.cs
         originalPath: 
         status: 3
         staged: 0
-      - path: Assets\Scripts\Utility\CostumNetworkManager.cs
-        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Utility\CostumNetworkManager.cs
-        projectPath: Assets\Scripts\Utility\CostumNetworkManager.cs
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
         originalPath: 
-        status: 4
+        status: 3
         staged: 0
-      - path: Assets\Scripts\Utility\CostumNetworkManager.cs.meta
-        fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Utility\CostumNetworkManager.cs.meta
-        projectPath: Assets\Scripts\Utility\CostumNetworkManager.cs.meta
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
         originalPath: 
-        status: 4
+        status: 3
         staged: 0
-    detailsScroll: {x: 0, y: 0}
-    logEntries:
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
     - commitID: de21d419f932ae5ad28ccfece776391f08a3a737
       mergeA: 
       mergeB: 
@@ -15686,7 +17210,7 @@ MonoBehaviour:
         originalPath: 
         status: 4
         staged: 0
-    statusAhead: 1
+    statusAhead: 0
     treeChanges:
       assets:
         keys: []
@@ -15694,14 +17218,16 @@ MonoBehaviour:
       folders:
         keys:
         - Assets
-        - Assets\Prefabs
-        - Assets\Prefabs\Players
-        - Assets\Prefabs\Players\EarthPlayer
-        - Assets\Prefabs\Players\WaterPlayer
+        - Assets\Lobby
+        - Assets\Lobby\Prefabs
+        - Assets\Lobby\Scripts
+        - Assets\Lobby\Scripts\Lobby
         - Assets\Scenes
         - Assets\Scripts
         - Assets\Scripts\Player
-        - Assets\Scripts\Utility
+        - Library
+        - Library\ScriptAssemblies
+        - ProjectSettings
         values:
         - path: Assets
           label: Assets
@@ -15721,8 +17247,8 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Prefabs
-          label: Prefabs
+        - path: Assets\Lobby
+          label: Lobby
           level: 1
           isFolder: 1
           isContainer: 0
@@ -15739,8 +17265,8 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Prefabs\Players
-          label: Players
+        - path: Assets\Lobby\Prefabs
+          label: Prefabs
           level: 2
           isFolder: 1
           isContainer: 0
@@ -15757,9 +17283,9 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Prefabs\Players\EarthPlayer
-          label: EarthPlayer
-          level: 3
+        - path: Assets\Lobby\Scripts
+          label: Scripts
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -15775,8 +17301,8 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Prefabs\Players\WaterPlayer
-          label: WaterPlayer
+        - path: Assets\Lobby\Scripts\Lobby
+          label: Lobby
           level: 3
           isFolder: 1
           isContainer: 0
@@ -15847,9 +17373,45 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Scripts\Utility
-          label: Utility
-          level: 2
+        - path: Library
+          label: Library
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\ScriptAssemblies
+          label: ScriptAssemblies
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -15911,8 +17473,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Prefabs
-        label: Prefabs
+      - path: Assets\Lobby
+        label: Lobby
         level: 1
         isFolder: 1
         isContainer: 0
@@ -15929,8 +17491,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Prefabs\Players
-        label: Players
+      - path: Assets\Lobby\Prefabs
+        label: Prefabs
         level: 2
         isFolder: 1
         isContainer: 0
@@ -15947,27 +17509,9 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Prefabs\Players\EarthPlayer
-        label: EarthPlayer
+      - path: Assets\Lobby\Prefabs\PlayerInfo.prefab
+        label: PlayerInfo.prefab
         level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Prefabs\Players\EarthPlayer\EarthHero.prefab
-        label: EarthHero.prefab
-        level: 4
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -15977,14 +17521,32 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Prefabs\Players\EarthPlayer\EarthHero.prefab
-          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\EarthPlayer\EarthHero.prefab
-          projectPath: Assets\Prefabs\Players\EarthPlayer\EarthHero.prefab
+          path: Assets\Lobby\Prefabs\PlayerInfo.prefab
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Prefabs\PlayerInfo.prefab
+          projectPath: Assets\Lobby\Prefabs\PlayerInfo.prefab
           originalPath: 
           status: 3
           staged: 0
-      - path: Assets\Prefabs\Players\WaterPlayer
-        label: WaterPlayer
+      - path: Assets\Lobby\Scripts
+        label: Scripts
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Lobby\Scripts\Lobby
+        label: Lobby
         level: 3
         isFolder: 1
         isContainer: 0
@@ -16001,8 +17563,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Prefabs\Players\WaterPlayer\WaterHero.prefab
-        label: WaterHero.prefab
+      - path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+        label: LobbyManager.cs
         level: 4
         isFolder: 0
         isContainer: 0
@@ -16013,9 +17575,27 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Prefabs\Players\WaterPlayer\WaterHero.prefab
-          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Prefabs\Players\WaterPlayer\WaterHero.prefab
-          projectPath: Assets\Prefabs\Players\WaterPlayer\WaterHero.prefab
+          path: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          projectPath: Assets\Lobby\Scripts\Lobby\LobbyManager.cs
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+        label: LobbyPlayer.cs
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
+          projectPath: Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs
           originalPath: 
           status: 3
           staged: 0
@@ -16037,8 +17617,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Scenes\Network Working Ground.unity
-        label: Network Working Ground.unity
+      - path: Assets\Scenes\Lobby.unity
+        label: Lobby.unity
         level: 2
         isFolder: 0
         isContainer: 0
@@ -16049,10 +17629,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\Network Working Ground.unity
-          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Network Working
-            Ground.unity
-          projectPath: Assets\Scenes\Network Working Ground.unity
+          path: Assets\Scenes\Lobby.unity
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scenes\Lobby.unity
+          projectPath: Assets\Scenes\Lobby.unity
           originalPath: 
           status: 3
           staged: 0
@@ -16092,8 +17671,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Scripts\Player\SetupLocalPlayer.cs
-        label: SetupLocalPlayer.cs
+      - path: Assets\Scripts\Player\PlayerHealth.cs
+        label: PlayerHealth.cs
         level: 3
         isFolder: 0
         isContainer: 0
@@ -16104,15 +17683,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\Player\SetupLocalPlayer.cs
-          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\SetupLocalPlayer.cs
-          projectPath: Assets\Scripts\Player\SetupLocalPlayer.cs
+          path: Assets\Scripts\Player\PlayerHealth.cs
+          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Player\PlayerHealth.cs
+          projectPath: Assets\Scripts\Player\PlayerHealth.cs
           originalPath: 
           status: 3
           staged: 0
-      - path: Assets\Scripts\Utility
-        label: Utility
-        level: 2
+      - path: Library
+        label: Library
+        level: 0
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -16128,27 +17707,9 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Scripts\Utility\CostumNetworkManager.cs
-        label: CostumNetworkManager.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Utility\CostumNetworkManager.cs
-          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Utility\CostumNetworkManager.cs
-          projectPath: Assets\Scripts\Utility\CostumNetworkManager.cs
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: Assets\Scripts\Utility\CostumNetworkManager.cs.meta
-        label: CostumNetworkManager.cs.meta
-        level: 4
+      - path: Library\CurrentLayout.dwlt
+        label: CurrentLayout.dwlt
+        level: 1
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -16158,11 +17719,173 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\Utility\CostumNetworkManager.cs.meta
-          fullPath: D:\Unity Projects\The4ElementsRPG\Assets\Scripts\Utility\CostumNetworkManager.cs.meta
-          projectPath: Assets\Scripts\Utility\CostumNetworkManager.cs.meta
+          path: Library\CurrentLayout.dwlt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
           originalPath: 
-          status: 4
+          status: 3
+          staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        label: InspectorExpandedItems.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\InspectorExpandedItems.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\LastSceneManagerSetup.txt
+        label: LastSceneManagerSetup.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\LastSceneManagerSetup.txt
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\LastSceneManagerSetup.txt
+          projectPath: Library\LastSceneManagerSetup.txt
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ProjectSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ProjectSettings.asset
+          projectPath: Library\ProjectSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies
+        label: ScriptAssemblies
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+        label: Assembly-CSharp-firstpass.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        label: Assembly-CSharp.dll.mdb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\Unity Projects\The4ElementsRPG\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: D:\Unity Projects\The4ElementsRPG\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          status: 3
           staged: 0
       selectedNode:
         path: 
@@ -16184,10 +17907,10 @@ MonoBehaviour:
           status: 0
           staged: 0
     lastLogChangedEvent:
-      updatedTimeString: 2018-10-12T17:05:13.367+03:00
+      updatedTimeString: 2018-12-02T20:00:03.891+02:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-12-02T20:00:03.173+02:00
       cacheType: 4
   settingsView:
     gitPathView:
@@ -16199,7 +17922,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2018-10-12T16:14:35.038+03:00
+      updatedTimeString: 2018-12-02T20:00:03.742+02:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/ShalevNehorai/RPG-tutorial.git
@@ -16208,12 +17931,12 @@ MonoBehaviour:
     scroll: {x: 0, y: 0}
     userSettingsView:
       gitName: Shalev Nehorai
-      gitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      gitEmail: shalev336n@gmail.com
       newGitName: Shalev Nehorai
-      newGitEmail: 35132986+ShalevNehorai@users.noreply.github.com
+      newGitEmail: shalev336n@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2018-10-12T16:53:38.407+03:00
+        updatedTimeString: 2018-12-02T20:00:51.100+02:00
         cacheType: 7
     webTimeout: 3000
     gitTimeout: 5000
@@ -16241,13 +17964,13 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 02:00
     lastLocksChangedEvent:
-      updatedTimeString: 2018-06-25T22:06:13.133+03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-06-25T22:06:13.133+03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
     lastUserChangedEvent:
-      updatedTimeString: 2018-06-25T22:06:17.704+03:00
+      updatedTimeString: 2018-12-02T20:00:51.100+02:00
       cacheType: 7
     lockedFiles: []
     gitStatusEntries: []
@@ -16276,13 +17999,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-12-01T18:27:13.697+02:00
+    updatedTimeString: 2018-12-02T20:00:03.742+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-12-01T18:27:13.351+02:00
+    updatedTimeString: 2018-12-02T20:00:50.739+02:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-12-01T18:27:01.288+02:00
+    updatedTimeString: 2018-12-02T20:00:50.507+02:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -16300,7 +18023,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 1
-  repositoryProgressMessage: Loading the history...
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialization failed

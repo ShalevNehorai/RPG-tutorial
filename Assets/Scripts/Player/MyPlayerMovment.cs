@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityStandardAssets.Characters.ThirdPerson;
 
-//TODO: change the movment to run with WASD and look at mouse position
 public class MyPlayerMovment : NetworkBehaviour
 {
     public float speed = 1000f;
