@@ -3,5 +3,5 @@
 public interface IDamageable
 {
     [Command]
-    void CmdTakeDamage(float damage);
+     void CmdTakeDamage(float damage);
 }

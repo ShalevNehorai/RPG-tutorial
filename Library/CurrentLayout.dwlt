@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 115
+  controlID: 128
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 299
     height: 364
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 701
     height: 364
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -376,20 +376,20 @@ MonoBehaviour:
     height: 343
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 46280000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: d612f4ff4e55f4ffd455f4ff9c6df4ffa86df4ffba71f4ffe694f4ffe6c7f4ff6ac8f4ff32e0f4ff3ee0f4ffe62cf5ffec50f5ff366ef5ff2eb8f5ffa2b8f5ff66d0f5ff6ed0f5ff467df6ff5698f7ff9085f8ff5e01f9ffc290f9ffe29cf9ff689df9ff2cb5f9ff34b5f9ff1095faff78a0fafffea0faffc2b8faffcab8faff9410fcfff41efcff7a1ffcff3e37fcff4637fcff5885fcffb8a4fcff38b3fcff90c2fcff60c3fcff28dbfcff34dbfcff7805fdff20fcfdffb675feffa6fbfffff4ffffff00000000
+    m_ExpandedIDs: 1aa6f3ffe2a6f3fffca8f3ff5cabf3ff40b2f3ff0ab3f3ff26b5f3ff86b7f3ff501ef4ff8a37f4ff5438f4ff1450f4ff1c50f4ffce58f4ff9659f4ff5671f4ffe889f4ff9cc6f4ff1cc7f4ffdcdef4ffe4def4ffb40ef5ff340ff5fffa26f5ff0627f5ffb44ff5ffe64af6ff16b8f6ff8c0ff7ffa61cf8ff9a9cf9ffbcd0f9ff3cd1f9ff02e9f9ff0ee9f9ff1620faff1630faff8e30faffaa32faff0a35faffa6fbffff00000000682f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Spown Point Player2
-      m_OriginalName: Spown Point Player2
+      m_Name: Text
+      m_OriginalName: Text
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -219980
+      m_UserData: -29022
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -428,14 +428,14 @@ MonoBehaviour:
     width: 697
     height: 343
   m_SceneLighting: 1
-  lastFramingTime: 1135.2513453043664
-  m_2DMode: 0
+  lastFramingTime: 480.78056595563004
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 85.35772, y: 4.793133, z: -16.307844}
+    m_Target: {x: 362.07294, y: 155.21315, z: 5.7706456}
     speed: 2
-    m_Value: {x: 85.35772, y: 4.793133, z: -16.307844}
+    m_Value: {x: 362.07294, y: 155.21315, z: 5.7706456}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -450,27 +450,27 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: -0.3675889, y: 0.34269243, z: -0.14788614, w: -0.85180396}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.3675889, y: 0.34269243, z: -0.14788614, w: -0.85180396}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 46.0772
+    m_Target: 691.5849
     speed: 2
-    m_Value: 46.0772
+    m_Value: 691.5849
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.28817824, y: 0.6170428, z: -0.2597176, w: -0.6846593}
+  m_LastSceneViewRotation: {x: -0.3675889, y: 0.34269243, z: -0.14788614, w: -0.8518039}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -645,7 +645,7 @@ MonoBehaviour:
   m_LastProjectPath: D:\Unity Projects\The4ElementsRPG
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 271}
+    scrollPos: {x: 0, y: 240}
     m_SelectedIDs: 12290000
     m_LastClickedID: 10514
     m_ExpandedIDs: 0000000036280000d22800000c29000012290000c8290000d4290000d6290000f0290000662a0000c62a0000ee2a0000f62a00000c2b0000662c00008e2c0000fe2c0000362e0000382e00003a2e0000842e0000c22e0000b83b0000ba3b0000bc3b0000be3b0000c03b0000c23b0000c43b0000c63b0000c83b0000ffffff7f
@@ -1119,13 +1119,13 @@ MonoBehaviour:
       staged: 0
     changedFilesText: 1 changed file
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-12-05T20:26:38.953+02:00
+      updatedTimeString: 2018-12-05T21:52:46.900+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-12-05T20:27:39.849+02:00
+      updatedTimeString: 2018-12-05T22:10:32.803+02:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-12-05T20:24:29.554+02:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -18092,13 +18092,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-12-05T19:26:12.785+02:00
+    updatedTimeString: 2018-12-05T20:52:47.825+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-12-05T19:26:12.961+02:00
+    updatedTimeString: 2018-12-05T20:52:48.003+02:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-12-05T19:28:10.112+02:00
+    updatedTimeString: 2018-12-05T20:58:40.717+02:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -18116,7 +18116,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 1
-  repositoryProgressMessage: Listing changed files...
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialization failed
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 0
+  appManagerProgressMessage: Initializing...

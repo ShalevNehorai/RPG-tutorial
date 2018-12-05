@@ -823,7 +823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1636108254337110
 GameObject:
   m_ObjectHideFlags: 1
@@ -1186,7 +1186,7 @@ GameObject:
   - component: {fileID: 114952473135024480}
   - component: {fileID: 114363768875548686}
   - component: {fileID: 114541643928375366}
-  - component: {fileID: 114395452249878602}
+  - component: {fileID: 114450455637018532}
   m_Layer: 9
   m_Name: boss
   m_TagString: Untagged
@@ -2581,26 +2581,29 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 0.5
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
---- !u!114 &114395452249878602
+--- !u!114 &114450455637018532
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1879178484836084}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f97b15944d72c3428f5ef255ee3889a, type: 3}
+  m_Script: {fileID: 11500000, guid: af0b2f525f3089446ad267f6396673ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 1000
+  MaxHealth: 500
   ChaseRadius: 2
-  AttackRange: 18.23
-  Damage: 9
-  secBetweenShot: 0.5
-  ProjectileToUse: {fileID: 1228493922914632, guid: 327270b06c61c944d88713cc28132de3,
+  AttackRange: 18
+  Damage: 20
+  secBetweenShot: 1
+  ProjectileToUse: {fileID: 1228493922914632, guid: 06129cbf2154c8b478a828dfad501572,
     type: 2}
   ProjectileSpownPoint: {fileID: 4664616657014354}
   target: {fileID: 0}
+  distansToTarget: 0
+  EndText: {fileID: 0}
+  Canvas: {fileID: 0}
 --- !u!114 &114459986015253346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2693,7 +2696,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1879178484836084}
   m_Material: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.3
   m_Height: 1.6
   m_Direction: 1

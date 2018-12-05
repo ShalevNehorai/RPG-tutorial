@@ -11,24 +11,24 @@ using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Enemy : NetworkBehaviour, IDamageable {
 
-	[SerializeField] float MaxHealth = 100f;
-	[SerializeField] float ChaseRadius = 5f;
+	[SerializeField] protected float MaxHealth = 100f;
+	[SerializeField] protected float ChaseRadius = 5f;
 
-	[SerializeField] float AttackRange = 2f;
-    [SerializeField] float Damage = 9f;
-    [SerializeField] float secBetweenShot = 0.5f;
+	[SerializeField] protected float AttackRange = 2f;
+    [SerializeField] protected float Damage = 9f;
+    [SerializeField] protected float secBetweenShot = 0.5f;
 
     [SerializeField] GameObject ProjectileToUse;
     [SerializeField] Transform ProjectileSpownPoint;
     
 
-	[SyncVar (hook = "OnChangeHealth")]private float currentHealth;
-    private float nextAttackTime = 0;
+	[SyncVar (hook = "OnChangeHealth")]protected float currentHealth;
+    protected float nextAttackTime = 0;
 
-	private AICharacterControl aiCharacterController = null;
-	[SyncVar (hook = "OnChangeTarget")][SerializeField] private GameObject target = null;
+	protected AICharacterControl aiCharacterController = null;
+	[SyncVar (hook = "OnChangeTarget")][SerializeField] protected GameObject target = null;
 
-    private GameObject[] players;
+    protected GameObject[] players;
 
     public float distansToTarget;
 
@@ -41,7 +41,7 @@ public class Enemy : NetworkBehaviour, IDamageable {
 		}
 	}
 
-    public void CmdTakeDamage(float damage)
+    public virtual void CmdTakeDamage(float damage)
     {
         this.currentHealth = Mathf.Clamp(currentHealth - damage, 0, MaxHealth);
         if (currentHealth <= 0)

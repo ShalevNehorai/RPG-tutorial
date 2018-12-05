@@ -54,7 +54,6 @@ public class BossTrigger : NetworkBehaviour {
     [Command]
     private void CmdSpownBoss()
     {
-        Debug.Log("got here");
         SpownBoss();
         BossSpownd = true;
         RpcSpownBoss();
