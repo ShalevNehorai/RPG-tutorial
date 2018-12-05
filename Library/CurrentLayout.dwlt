@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 506, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 52
+  controlID: 122
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 106
+  controlID: 51
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 13
+  controlID: 52
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 398
     height: 635
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 20}
@@ -346,26 +346,26 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 9af8f3ff24f9f3ffee00f4fffa00f4ff9604f4ff4c11f4fff629f4ff662af4ff6032f4ff6832f4ff344df4ffda54f4ffc080f4fffa68f5ff1c6ff5ff0a7af5ffba86f5ffe2b1f5ff72b2f5ff3ebaf5ff4cbaf5ff1a34f8ffea41f8ff0657f8ff8c57f8ff565ff8ff625ff8ff3263f8ff706cf8ffe689f8ffca90f8ffa69df8ff2caaf8ff06abf8ff7eacf8ffe2aef8ffdeddf8ff70def8ff10e0f8ff5a0afcff2c67fcffba67fcff5a69fcff0a6bfdff94e2fdff20e3fdffc0e4fdffd00afeff5c0bfefffc0cfeff1c6cffffa06cffff406effff30d4ffffbed4ffff62d6ffffa6fbffff000000005e620000f2fd0000
+    m_ExpandedIDs: fc90f4ff9080f6ff788ef6fffc8ef6ff46a5f6ff4ea5f6ffbcf0f6ff4e01f7ff6c02f7ff2e0af7ffa80cf7ff3688f9ffd498feff1637ffff827bfffffa9fffff0edbffff94dbffff58e3ffff60e3ffffa6fbfffff4ffffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Mesh
+      m_OriginalName: Mesh
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -423982
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - Lobby
+  - combat sendbox
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -396,14 +396,14 @@ MonoBehaviour:
     width: 673
     height: 330
   m_SceneLighting: 1
-  lastFramingTime: 2573.8597770420197
+  lastFramingTime: 3504.369131137143
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.492022, y: 3.2078056, z: 0.37940472}
+    m_Target: {x: 41.931694, y: 8.963366, z: -19.557215}
     speed: 2
-    m_Value: {x: 3.492022, y: 3.2078056, z: 0.37940472}
+    m_Value: {x: 41.931694, y: 8.963366, z: -19.557215}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -426,19 +426,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.28817824, y: 0.6170428, z: -0.2597176, w: -0.68465924}
+    m_Target: {x: -0.027734319, y: 0.9713196, z: -0.18730791, w: -0.14382188}
     speed: 2
-    m_Value: {x: -0.28817824, y: 0.6170428, z: -0.2597176, w: -0.6846593}
+    m_Value: {x: -0.02773432, y: 0.9713197, z: -0.18730792, w: -0.1438219}
   m_Size:
-    m_Target: 6.042941
+    m_Target: 11.194454
     speed: 2
-    m_Value: 6.042941
+    m_Value: 11.194454
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.28817824, y: 0.6170428, z: -0.2597176, w: -0.6846593}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -604,19 +604,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs/Players/FirePlayer
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs/Players/FirePlayer
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\The4ElementsRPG
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: da2c0000
-    m_LastClickedID: 11482
-    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a00004c2b0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e0000b0330000b2330000b4330000b6330000b8330000ba330000bc330000be330000c0330000ffffff7f
+    scrollPos: {x: 0, y: 186}
+    m_SelectedIDs: b82d0000
+    m_LastClickedID: 11704
+    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000c02a0000dc2a0000e42a0000fa2a00004c2b0000422c00006a2c0000da2c0000122e0000142e0000162e0000602e00009e2e000090340000923400009434000096340000983400009a3400009c3400009e340000a0340000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e0000b0330000b2330000b4330000b6330000b8330000ba330000bc330000be330000c0330000
+    m_ExpandedIDs: 0000000034280000d02800000a29000010290000c2290000ce290000d0290000ea290000dc2a0000e42a0000fa2a00004c2b0000422c00006a2c0000da2c0000142e0000162e0000602e00009e2e000090340000923400009434000096340000983400009a3400009c3400009e340000a0340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -791,8 +791,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 5
-  activeTab: 5
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
@@ -968,7 +968,7 @@ MonoBehaviour:
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
-    treeScroll: {x: 0, y: 0}
+    treeScroll: {x: 0, y: 80}
     treeChanges:
       assets:
         keys: []
@@ -1026,13 +1026,13 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-12-02T20:00:03.742+02:00
+      updatedTimeString: 2018-12-03T10:37:04.991+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-12-02T19:59:39.512+02:00
+      updatedTimeString: 2018-12-03T10:37:21.467+02:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-12-02T19:59:10.022+02:00
+      updatedTimeString: 2018-12-03T10:35:56.381+02:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -17922,7 +17922,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2018-12-02T20:00:03.742+02:00
+      updatedTimeString: 2018-12-03T10:35:55.340+02:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/ShalevNehorai/RPG-tutorial.git
@@ -17936,7 +17936,7 @@ MonoBehaviour:
       newGitEmail: shalev336n@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2018-12-02T20:00:51.100+02:00
+        updatedTimeString: 2018-12-03T10:23:59.086+02:00
         cacheType: 7
     webTimeout: 3000
     gitTimeout: 5000
@@ -17999,13 +17999,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-12-02T20:00:03.742+02:00
+    updatedTimeString: 2018-12-03T10:37:04.991+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-12-02T20:00:50.739+02:00
+    updatedTimeString: 2018-12-03T10:37:21.525+02:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-12-02T20:00:50.507+02:00
+    updatedTimeString: 2018-12-03T10:37:21.467+02:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
