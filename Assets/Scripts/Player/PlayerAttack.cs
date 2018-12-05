@@ -35,7 +35,7 @@ public class PlayerAttack : NetworkBehaviour {
     {
         nextAttackTime = Mathf.Clamp(nextAttackTime - Time.deltaTime, 0, 1 / attackSpeed);
 
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButton(0))
         {
             Attack();
         }

@@ -30,7 +30,10 @@ public class Enemy : NetworkBehaviour, IDamageable {
 
     private GameObject[] players;
 
-	public float healthAsPercentage 
+    public float distansToTarget;
+
+
+    public float healthAsPercentage 
 	{
 		get 
 		{
@@ -75,10 +78,14 @@ public class Enemy : NetworkBehaviour, IDamageable {
         {
             if (target)
             {
-                float distansToTarget = Vector3.Distance(target.transform.position, transform.position);
+                /*float*/ distansToTarget = Vector3.Distance(target.transform.position, transform.position);
                 if (distansToTarget < ChaseRadius)
                 {
                     aiCharacterController.SetTarget(target.transform);
+                }
+                else
+                {
+                    aiCharacterController.SetTarget(transform);
                 }
                 if (distansToTarget < AttackRange && Time.time >= nextAttackTime)
                 {
