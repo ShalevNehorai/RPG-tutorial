@@ -306,6 +306,7 @@ namespace Prototype.NetworkLobby
             int index = currentPlayers[conn.connectionId];
             GameObject playerPrefab = (GameObject)GameObject.Instantiate(spawnPrefabs[index],
                 GetNetworkStartPosition(conn.connectionId).transform.position, Quaternion.identity);
+            playerPrefab.GetComponent<PlayerHealth>().connectionID = conn.connectionId;
             return playerPrefab;
         }
 

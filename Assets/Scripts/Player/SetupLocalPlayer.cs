@@ -22,6 +22,7 @@ public class SetupLocalPlayer : NetworkBehaviour {
         {
             GetComponent<MyPlayerMovment>().enabled = true;
             GetComponent<PlayerAttack>().enabled = true;
+            GetComponent<PlayerHealth>().enabled = true;
             CameraFollow.SetPlayer = this.gameObject;
         }
         else
